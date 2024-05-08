@@ -17,24 +17,24 @@ Este programa en Python te permite cargar un conjunto de preguntas y respuestas 
 1. Coloca tus preguntas y respuestas en un archivo JSON con el siguiente formato:
 
     ```json
-   {
-    "preguntas": [
-        {
-            "id": 1,
-            "pregunta": "Define el teorema de Deducción",
-            "respuesta": ""
-        },
-        {
-            "id": 2,
-            "pregunta": "Define el teorema de Condicionalización",
-            "respuesta": ""
-        },
+    {
+        "preguntas": [
+            {
+                "id": 1,
+                "pregunta": "Define el teorema de Deducción",
+                "respuesta": ""
+            },
+            {
+                "id": 2,
+                "pregunta": "Define el teorema de Condicionalización",
+                "respuesta": ""
+            },
             ...
         ]
     }
     ```
 
-2. Ejecuta el archivo `randomizador_preguntas.py`.
+2. Ejecuta el archivo `randomizador_preguntas.py [Ruta/archivo/JSON]`.
 3. Sigue las instrucciones en pantalla para mostrar preguntas y sus respuestas de forma aleatoria.
 
 ## Contribución
