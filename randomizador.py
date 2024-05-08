@@ -1,5 +1,8 @@
+# -*- coding: utf-8 -*-
+
 import json
 import random
+import sys
 from time import sleep
 
 class Randomizador:
@@ -18,9 +21,9 @@ class Randomizador:
 
 
     def cargar_preguntas(self) -> None:
-        with open(self.jsonPath) as json_file:
+        with open(self.jsonPath, encoding='utf-8') as json_file:
             self.preguntas = json.load(json_file)
-        print("Preguntas cargadas:", self.preguntas)
+        print("Preguntas cargadas correctamente")
 
             
     def mostar_pregunta(self, id_pregunta) -> None:
@@ -33,9 +36,13 @@ def limpiar_pantalla():
     print("\033[H\033[J")
     
 if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        print("Uso: python randomizador.py <archivo_json>")
+        sys.exit(1)
+    
     print("Bienvenido al randomizador de preguntas")
     
-    json_file_path = input("Ingrese el path del archivo JSON con las preguntas: ")
+    json_file_path = sys.argv[1]
     
     randomizador = Randomizador(json_file_path)
     randomizador.cargar_preguntas()

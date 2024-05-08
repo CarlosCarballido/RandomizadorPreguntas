@@ -2,37 +2,37 @@
     "preguntas": [
         {
             "id": 1,
-            "pregunta": "Define el teorema de Deducción",
+            "pregunta": "Define el teorema de Deduccion",
             "respuesta": ""
         },
         {
             "id": 2,
-            "pregunta": "Define el teorema de Condicionalización",
+            "pregunta": "Define el teorema de Condicionalizacion",
             "respuesta": ""
         },
         {
             "id": 3,
-            "pregunta": "¿Qué son los sistemas basados en reglas (de producción)?",
+            "pregunta": "¿Que son los sistemas basados en reglas (de produccion)?",
             "respuesta": ""
         },
         {
             "id": 4,
-            "pregunta": "¿Qué es una regla?",
+            "pregunta": "¿Que es una regla?",
             "respuesta": ""
         },
         {
             "id": 5,
-            "pregunta": "Escribe la fórmula de las reglas de producción",
+            "pregunta": "Escribe la formula de las reglas de produccion",
             "respuesta": ""
         },
         {
             "id": 6,
-            "pregunta": "Escribe la fórmula de la base del conocimiento",
+            "pregunta": "Escribe la formula de la base del conocimiento",
             "respuesta": ""
         },
         {
             "id": 7,
-            "pregunta": "¿Qué es la memoria de trabajo?",
+            "pregunta": "¿Que es la memoria de trabajo?",
             "respuesta": ""
         },
         {
@@ -42,12 +42,12 @@
         },
         {
             "id": 9,
-            "pregunta": "Dime los 3 tipos de métodos de razonamiento",
+            "pregunta": "Dime los 3 tipos de metodos de razonamiento",
             "respuesta": ""
         },
         {
             "id": 10,
-            "pregunta": "¿Qué es una estrategia de control?",
+            "pregunta": "¿Que es una estrategia de control?",
             "respuesta": ""
         },
         {
