@@ -31,6 +31,10 @@ class Randomizador:
     
     def mostrar_respuesta(self, id_pregunta) -> None:
         print(f"Respuesta: {self.preguntas['preguntas'][id_pregunta]['respuesta']}")
+        
+    def eliminar_pregunta(self, id_pregunta) -> None:
+        self.preguntas['preguntas'].pop(id_pregunta)
+        
 
 def limpiar_pantalla():
     print("\033[H\033[J")
@@ -57,8 +61,11 @@ if __name__ == "__main__":
         id_pregunta = randomizador.sortear()
         if id_pregunta == -1:
             break
+        
+        print("\nPresione una tecla para ver la respuesta\n")
         randomizador.mostar_pregunta(id_pregunta)
-        input("Presione una tecla para ver la respuesta")
+        input()
         randomizador.mostrar_respuesta(id_pregunta)
+        randomizador.eliminar_pregunta(id_pregunta)
         print()
 

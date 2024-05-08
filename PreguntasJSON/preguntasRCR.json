@@ -3,32 +3,32 @@
         {
             "id": 1,
             "pregunta": "Define el teorema de Deduccion",
-            "respuesta": ""
+            "respuesta": "Si A -> B, entonces A |- B \nCondicional(->): conectiva"
         },
         {
             "id": 2,
             "pregunta": "Define el teorema de Condicionalizacion",
-            "respuesta": ""
+            "respuesta": "Si A |- B, entonces A -> B \nImplicacion(|-): relacion entre las premisas y las conclusion de un razonamiento valido"
         },
         {
             "id": 3,
             "pregunta": "¿Que son los sistemas basados en reglas (de produccion)?",
-            "respuesta": ""
+            "respuesta": "Modelo de representacion del razonamiento/conocimiento (simples, similitud con el razonamiento humano), los datos dirigen las operaciones"
         },
         {
             "id": 4,
             "pregunta": "¿Que es una regla?",
-            "respuesta": ""
+            "respuesta": "Combinacion de hechos/conceptos que permite representar conocimientosy derivar conclusiones"
         },
         {
             "id": 5,
             "pregunta": "Escribe la formula de las reglas de produccion",
-            "respuesta": ""
+            "respuesta": "R = (Bh, Br, Mi), donde: \nBh = base de hechos\nBr = base de reglas\nMi = motor de inferencia"
         },
         {
             "id": 6,
             "pregunta": "Escribe la formula de la base del conocimiento",
-            "respuesta": ""
+            "respuesta": "Bc = (Bn ∪ Br) , donde: \nBh = base de hechos\nBr = base de reglas"
         },
         {
             "id": 7,
