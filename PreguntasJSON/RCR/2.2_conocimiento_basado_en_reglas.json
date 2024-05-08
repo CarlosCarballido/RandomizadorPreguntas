@@ -18,7 +18,7 @@
         {
             "id": 4,
             "pregunta": "¿Que es una regla?",
-            "respuesta": "Combinacion de hechos/conceptos que permite representar conocimientosy derivar conclusiones"
+            "respuesta": "Combinacion de hechos/conceptos que permite representar conocimientos y derivar conclusiones"
         },
         {
             "id": 5,
@@ -38,7 +38,7 @@
         {
             "id": 8,
             "pregunta": "Define motor de inferencia",
-            "respuesta": "Es el encargado de disparar las reglas y obtener el nuevo conocimiento a partir del siguiente"
+            "respuesta": "Es el encargado de disparar las reglas y obtener el nuevo conocimiento a partir del existente"
         },
         {
             "id": 9,

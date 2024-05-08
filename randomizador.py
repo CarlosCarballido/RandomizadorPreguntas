@@ -28,10 +28,10 @@ class Randomizador:
 
             
     def mostar_pregunta(self, id_pregunta) -> None:
-        print(f"Pregunta: {self.preguntas['preguntas'][id_pregunta]['pregunta']}")
+        print(f"Pregunta:\n{self.preguntas['preguntas'][id_pregunta]['pregunta']}")
     
     def mostrar_respuesta(self, id_pregunta) -> None:
-        print(f"Respuesta: {self.preguntas['preguntas'][id_pregunta]['respuesta']}")
+        print(f"Respuesta:\n{self.preguntas['preguntas'][id_pregunta]['respuesta']}")
         
     def eliminar_pregunta(self, id_pregunta) -> None:
         self.preguntas['preguntas'].pop(id_pregunta)
@@ -61,7 +61,8 @@ if __name__ == "__main__":
     while True:
         id_pregunta = randomizador.sortear()
         if id_pregunta == -1:
-            break
+            randomizador.cargar_preguntas()
+            print("Se rellean las preguntas de nuevo")
         
         print("\nPresione una tecla para ver la respuesta\n")
         randomizador.mostar_pregunta(id_pregunta)
@@ -69,4 +70,3 @@ if __name__ == "__main__":
         randomizador.mostrar_respuesta(id_pregunta)
         randomizador.eliminar_pregunta(id_pregunta)
         print()
-
