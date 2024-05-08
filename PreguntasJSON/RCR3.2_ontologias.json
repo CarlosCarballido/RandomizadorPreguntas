@@ -1,0 +1,74 @@
+{
+    "preguntas": [
+        {
+            "id" : 1,
+            "pregunta": "¿Cual es el objetivo de las ontologías?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 2,
+            "pregunta": "¿Cuáles son las ventajas de las ontologías?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 3,
+            "pregunta": "Define ontología",
+            "respuesta": "" 
+        },
+        {
+            "id" : 4,
+            "pregunta": "Define la clasificación de Guarino y Giaretta",
+            "respuesta": "" 
+        },
+        {
+            "id" : 5,
+            "pregunta": "¿Cuáles son los componentes de una ontología? Defínelos",
+            "respuesta": "" 
+        },
+        {
+            "id" : 6,
+            "pregunta": "¿Qué tipos de ontologías conocemos?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 7,
+            "pregunta": "¿Cómo es la clasificación de las ontologías según el tipo de conceptualización?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 8,
+            "pregunta": "¿Cómo es la clasificación de las ontologías según el alcance?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 9,
+            "pregunta": "¿Qué pautas generales debe seguir una ontología?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 10,
+            "pregunta": "Enumera las fases habituales de elaboración de ontologías",
+            "respuesta": "" 
+        },
+        {
+            "id" : 11,
+            "pregunta": "¿Cómo debemos construir una ontología?",
+            "respuesta": "" 
+        },
+        {
+            "id" : 12,
+            "pregunta": "Nombra los lenguajes que se utilizan para implementar ontologías",
+            "respuesta": "" 
+        },
+        {
+            "id" : 13,
+            "pregunta": "Redacta la información que sepas sobre OWL",
+            "respuesta": "" 
+        },
+        {
+            "id" : 14,
+            "pregunta": "¿Qué herramientas de desarrollo conoces para las ontologías?",
+            "respuesta": "" 
+        }
+    ]
+}
