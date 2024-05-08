@@ -2,18 +2,58 @@
     "preguntas": [
         {
             "id": 1,
-            "pregunta": "Cual es la capital de Francia?",
-            "respuesta": "Paris"
+            "pregunta": "Define el teorema de Deducción",
+            "respuesta": ""
         },
         {
             "id": 2,
-            "pregunta": "En que ano se descubrio America?",
-            "respuesta": "1492"
+            "pregunta": "Define el teorema de Condicionalización",
+            "respuesta": ""
         },
         {
             "id": 3,
-            "pregunta": "Cual es el color del cielo en un dia despejado?",
-            "respuesta": "Azul"
+            "pregunta": "¿Qué son los sistemas basados en reglas (de producción)?",
+            "respuesta": ""
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Qué es una regla?",
+            "respuesta": ""
+        },
+        {
+            "id": 5,
+            "pregunta": "Escribe la fórmula de las reglas de producción",
+            "respuesta": ""
+        },
+        {
+            "id": 6,
+            "pregunta": "Escribe la fórmula de la base del conocimiento",
+            "respuesta": ""
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Qué es la memoria de trabajo?",
+            "respuesta": ""
+        },
+        {
+            "id": 8,
+            "pregunta": "Define motor de inferencia",
+            "respuesta": ""
+        },
+        {
+            "id": 9,
+            "pregunta": "Dime los 3 tipos de métodos de razonamiento",
+            "respuesta": ""
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué es una estrategia de control?",
+            "respuesta": ""
+        },
+        {
+            "id": 11,
+            "pregunta": "Define el razonamiento hacia adelante",
+            "respuesta": ""
         }
     ]
 }

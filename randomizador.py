@@ -35,7 +35,9 @@ def limpiar_pantalla():
 if __name__ == "__main__":
     print("Bienvenido al randomizador de preguntas")
     
-    randomizador = Randomizador("PreguntasJSON/preguntasRCR.json")
+    json_file_path = input("Ingrese el path del archivo JSON con las preguntas: ")
+    
+    randomizador = Randomizador(json_file_path)
     randomizador.cargar_preguntas()
     
     print("Presione Ctrl+C para salir del programa")
