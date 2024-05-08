@@ -33,12 +33,12 @@
         {
             "id": 7,
             "pregunta": "¿Que es la memoria de trabajo?",
-            "respuesta": ""
+            "respuesta": "Conocimiento temporal que se va añadiendo a la configuracion del problema en un momento dado. Generalemente se distingue entre base de hechos(inicial) y memoria de trabajo\nGeneralmente suele estar vacia, pero durante el transcurso de la ejecucion podra ir modificandose. El nuevo conocimiento se añade o se elimina de la memoria de trabajo"
         },
         {
             "id": 8,
             "pregunta": "Define motor de inferencia",
-            "respuesta": ""
+            "respuesta": "Es el encargado de disparar las reglas y obtener el nuevo conocimiento a partir del siguiente"
         },
         {
             "id": 9,
