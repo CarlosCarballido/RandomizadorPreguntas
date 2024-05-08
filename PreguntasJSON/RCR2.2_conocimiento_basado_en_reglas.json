@@ -43,17 +43,27 @@
         {
             "id": 9,
             "pregunta": "Dime los 3 tipos de metodos de razonamiento",
-            "respuesta": ""
+            "respuesta": "Deduccion: usa reglas de inferencia de la logica\nInduccion: mediante generalizacion de observaciones para generar conocimiento de nivel mas alto\nAbduccion: metodo de razonamiento por la mejor explicacion posible"
         },
         {
             "id": 10,
             "pregunta": "¿Que es una estrategia de control?",
-            "respuesta": ""
+            "respuesta": "Proceso que utiliza el motor de inferencia para obtener nuevo conocimiento a partir de la memoria de trabajo y las reglas de produccion. Decide el orden en el que se disparan las reglas de produccion.\nTiene dos tipos de razonamiento: Razonamiento hacia delante y Razonamiento hacia atras."
         },
         {
             "id": 11,
             "pregunta": "Define el razonamiento hacia adelante",
-            "respuesta": ""
+            "respuesta": "Una regla es activada si su antecedente empareja con alguno de los miembros de los hechos del sistema.\nDispara todas las reglas posibles segun las premisas verdaderas.\nDeriva en un conocimiento maximo ya que a partir de datos iniciales encontraria todas las posibles conclusiones a las que se puede llegar.\nLas reglas deben concluir y dar lugar a nuevos hechos que se añadan al conjunto de hechos conocidos, este proceso continua hasta que no puedan añadirse nuevos hechos"
+        },
+        {
+            "id": 12,
+            "pregunta": "Define el razonamiento hacia atras",
+            "respuesta": "Una regla es activada si su consecuente empareja con alguno de los hechos del sistema.\nHace referencia solo al proceso de busqueda y a la seleccion de las reglas, partiendo de las conclusiones.\nEs util cuando los datos iniciales son muy numeros.\nSe requiere que el usuario primero seleccione un objetivo.\nSi no se obtine soucion, el algoritmo pregunta al usuario en busca de nueva informacion."
+        },
+        {
+            "id": 13,
+            "pregunta": "Aplicaciones de los sistemas basados en reglas",
+            "respuesta": "Sistemas expertos.\nSistemas de diagnostico.\nSistemas de recomendacion.\nAutoatizacion de procesos.\nSistemas de control.\nSistemas de seguridad.\nSistemas de soporte a la toma de decisiones."
         }
     ]
 }
