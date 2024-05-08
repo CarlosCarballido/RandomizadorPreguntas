@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# Autor: @CarlosCarballido
 
 import json
 import random
