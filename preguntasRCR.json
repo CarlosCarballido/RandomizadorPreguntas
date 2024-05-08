@@ -1,0 +1,19 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "Cual es la capital de Francia?",
+            "respuesta": "Paris"
+        },
+        {
+            "id": 2,
+            "pregunta": "En que ano se descubrio America?",
+            "respuesta": "1492"
+        },
+        {
+            "id": 3,
+            "pregunta": "Cual es el color del cielo en un dia despejado?",
+            "respuesta": "Azul"
+        }
+    ]
+}
