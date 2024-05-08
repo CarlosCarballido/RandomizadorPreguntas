@@ -1,0 +1,74 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "Dime los dos tipos de representaciones estructuradas",
+            "repuesta": ""
+        },
+        {
+            "id": 2,
+            "pregunta": "Define Red , Red asociativa y Red Semántica",
+            "repuesta": ""
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Qué tipos de redes semánticas hay?",
+            "repuesta": ""
+        },
+        {
+            "id": 4,
+            "pregunta": "Define los sistemas asertivos",
+            "repuesta": ""
+        },
+        {
+            "id": 5,
+            "pregunta": "Define los sistemas taxonómicos",
+            "repuesta": ""
+        },
+        {
+            "id": 6,
+            "pregunta": "Define los modelos de memoria semántica o grafos relacionales de Quilian",
+            "repuesta": ""
+        },
+        {
+            "id": 7,
+            "pregunta": "En base a los grafos de Quillian define: Planos, Nodos-tipo, Nodos-réplica, Relaciones , Nodo-Intersección.",
+            "repuesta": ""
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Qué problemas encontramos en los grafos de Quillian?",
+            "repuesta": ""
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué propusieron los grafos de dependencia conceptual de Schank?",
+            "repuesta": ""
+        },
+        {
+            "id": 10,
+            "pregunta": "Dime los tres tipos de primitivas para los grafos de Shank , define cada uno de ellos con lo que contienen.",
+            "repuesta": ""
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué problemas se encontraron en los grafos de Shank?",
+            "repuesta": ""
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Qué propuso la jerarquía de conceptos?",
+            "repuesta": ""
+        },
+        {
+            "id": 13,
+            "pregunta": "Define cada componente de los marcos",
+            "repuesta": ""
+        },
+        {
+            "id": 14,
+            "pregunta": "Dime las ventajas que tienen los marcos",
+            "repuesta": ""
+        }
+    ]
+}
