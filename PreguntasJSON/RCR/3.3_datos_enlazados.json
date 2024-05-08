@@ -3,52 +3,52 @@
         {
             "id" : 1,
             "pregunta" : "Define datos enlazados",
-            "respuesta" : ""
+            "respuesta" : "Metodo de publicacion de datos estructurados para que puedan ser interconectados y mas utiles. Basado en tecnologias web estandar, extiende las web para que puedan ser leidas automaticamente por ordenadores."
         },
         {
             "id" : 2,
             "pregunta" : "Enuncia los 4 principios que caracterizan los datos enlazados",
-            "respuesta" : ""
+            "respuesta" : "- 1.Utilizan URIs para identificar los recursos publicados en la web.\n- 2.Aprovechan el HTTP de la URI para que la gente pueda localizar y consultar estos recursos.\n- 3.Proporcionan informacion averva del recurso cuando la URI haya sido desreferenciada.\n- 4.Incluye enlaces a otra URI"
         },
         {
             "id" : 3,
             "pregunta" : "¿Qué es RDF?",
-            "respuesta" : ""
+            "respuesta" : "Es un estandare del W3C diseñado para representar datos en la web, de una manera que sea comprensible tanto para los humanos como para las maquinas."
         },
         {
             "id" : 4,
             "pregunta" : "¿Cuáles son los 3 componentes principales de RDF?",
-            "respuesta" : ""
+            "respuesta" : "- 1.Recursos: entidades aplicables.\n- 2.Propiedades: describen catacteristicas o relaciones de los recursos.\n- 3.Valores: datos asociados a las propiedades."
         },
         {
             "id" : 5,
             "pregunta" : "¿Cómo se expresan las declaraciones en RDF?",
-            "respuesta" : ""
+            "respuesta" : "Se expresan mediante tripletas (sujeto, propiedad, objeto)"
         },
         {
             "id" : 6,
             "pregunta" : "¿Cuáles son las ventajas de RDF?",
-            "respuesta" : ""
+            "respuesta" : "- Capacidad de representar los datos de forma distribuida.\n- Facilidad la interpretabilidad emtre diferentes sistemas y fuentes.\n- Facilita compartir y entender datos."
         },
         {
             "id" : 7,
-            "pregunta" : "Define los componentes fundamentales de RDF",
-            "respuesta" : ""
+            "pregunta" : "Nombra los componentes fundamentales de RDF",
+            "respuesta" : "- Recursos.\n- Propiedades.\n- Tripletas RDF.\n- Grafos RDF.\n- URI.\n- Ontologias RDF.\n- Namespace (abreviar URIs largos y complejos)."
         },
         {
             "id" : 8,
             "pregunta" : "¿Qué es JSON?",
-            "respuesta" : ""
+            "respuesta" : "Formato popular para serializar los datos RDF"
         },
         {
             "id" : 9,
             "pregunta" : "¿Qué formas hay de representar los datos en formato JSON?",
-            "respuesta" : ""
+            "respuesta" : "1.JSON-LD.\n2.RDF/JSON.\n3.JSON simple."
         },
         {
             "id" : 10,
             "pregunta" : "¿Cuáles son los componentes fundamentales de JSON?",
-            "respuesta" : ""
+            "respuesta" : "- Context.\n- @id.\n- @type.\n- propiedades RDF"
         }
     ]
 }
