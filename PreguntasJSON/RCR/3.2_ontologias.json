@@ -3,72 +3,57 @@
         {
             "id" : 1,
             "pregunta": "¿Cual es el objetivo de las ontologías?",
-            "respuesta": "" 
+            "respuesta": "Unificar el conocimiento de un dominio concreto que figura en distintas localizaciones" 
         },
         {
             "id" : 2,
             "pregunta": "¿Cuáles son las ventajas de las ontologías?",
-            "respuesta": "" 
+            "respuesta": "- Unificacion terminologica y conceptual.\n- Reutilizables.\n- Permiten hacer explicitos los supuestos del dominio.\n- Distinguen el conocimiento del dominio y conocimiento operacional.\n- Permiten que el conocimiento del dominio sea analizable." 
         },
         {
             "id" : 3,
             "pregunta": "Define ontología",
-            "respuesta": "" 
+            "respuesta": "Especificaciones formales y explicitas de terminos en un determinado dominio y sus relaciones entre ellos. Listado mas o menos exhaustivo de terminos que, mediante las relaciones establecidsas entre ellos se disponen de manera generalmente arborea, formando una taxonomia.\n- Exhaustividad: viene dada por el volumen del estado de terminos.\n- Complejidad: viene dado por la cantidad y el tipo de relaciones ente tales terminos." 
         },
         {
             "id" : 4,
             "pregunta": "Define la clasificación de Guarino y Giaretta",
-            "respuesta": "" 
+            "respuesta": "\t1.Ontologia como entidad Semantico-conceptual.\n\t2.Ontologia como objeto sintactico especifico.\n\tOntologia como especificacion de una conceptuacion." 
         },
         {
             "id" : 5,
             "pregunta": "¿Cuáles son los componentes de una ontología? Defínelos",
-            "respuesta": "" 
+            "respuesta": "1.Conceptos: Entidades a formalizar, vienen definidas por el establecimiento de Roles(caracteristicas que definen al concepto y lo representan) y facetas(restricciones sobre los datos).\n2.Instancias: Objetos de una clase que representa un concepto en la que todos o parte de los valores de los roles estan rellenos.\n3.Relaciones: Representan como los conceptos interactuan entre si.\n4.Funciones: Tipo especial de relacion en la que se obtiene un elemento mediante calculos a partir de elementos de la ontologia.\n5.Axiomas: son enunciados o reglas fundamentales sobre las propiedades o condiciones que deben satisfacer las relaciones entre los conceptos de la antologia." 
         },
         {
             "id" : 6,
             "pregunta": "¿Qué tipos de ontologías conocemos?",
-            "respuesta": "" 
+            "respuesta": "Segun el tipo de conceptualizacion:\n\t- Terminologicas\n\t- De Informacion\n\t- De Modelado de Conocimiento\nSegun el alcance:\n\t- De dominio\n\t- De tareas\n\t- Generales" 
         },
         {
             "id" : 7,
-            "pregunta": "¿Cómo es la clasificación de las ontologías según el tipo de conceptualización?",
-            "respuesta": "" 
+            "pregunta": "¿Qué pautas generales debe seguir una ontología?",
+            "respuesta": "- Construidas de forma clara y objetiva.\n- Las definiciones deben de ser completas.\n- Deben ser conscientes y coherentes.\n- Las generalidades y especificaciones deben de ser autocontenidas.\n- Los conceptos deben ser fieles a los objetos que pretenden representar.\n- Deben de ser Modulares.\n- Principio de distincion ontologica: las clases que representan conceptos deben de ser disjuntas" 
         },
         {
             "id" : 8,
-            "pregunta": "¿Cómo es la clasificación de las ontologías según el alcance?",
-            "respuesta": "" 
+            "pregunta": "Enumera las fases habituales de elaboración de ontologías",
+            "respuesta": "1.Establecer Dominio, proposito y alcance.\n2.Considerar la reutilizacion de ontologias.\n3.Enumerar y explicar los terminos importantes para la ontologia.\n4.Construir la Ontologia: Codificacion, Integracion de ontologias existentes, Definir las clases y crear una jerarquia, Deficinir los roles y las facetas, Crear las instancias de las clases.5.Evaluacion Integridad, Coherencia y Reutilizacion.\n6.Documentacion y Reutilizacion." 
         },
         {
             "id" : 9,
-            "pregunta": "¿Qué pautas generales debe seguir una ontología?",
-            "respuesta": "" 
+            "pregunta": "Nombra los lenguajes que se utilizan para implementar ontologías",
+            "respuesta": "- RDF (Resource Description Framework).\n- DAMl+OIL.\n- DAML-S.\n- OWL" 
         },
         {
             "id" : 10,
-            "pregunta": "Enumera las fases habituales de elaboración de ontologías",
-            "respuesta": "" 
+            "pregunta": "Redacta la información que sepas sobre OWL",
+            "respuesta": "Extension de RDF mas especifica para ontologias, lenguaje de marcas semantico, orientado a la web semantica, es una mejora de DAM+OIL, tiene 3 versiones de complejidad creciente (OWL-Lite, OWL-DL y OWL-Full)" 
         },
         {
             "id" : 11,
-            "pregunta": "¿Cómo debemos construir una ontología?",
-            "respuesta": "" 
-        },
-        {
-            "id" : 12,
-            "pregunta": "Nombra los lenguajes que se utilizan para implementar ontologías",
-            "respuesta": "" 
-        },
-        {
-            "id" : 13,
-            "pregunta": "Redacta la información que sepas sobre OWL",
-            "respuesta": "" 
-        },
-        {
-            "id" : 14,
             "pregunta": "¿Qué herramientas de desarrollo conoces para las ontologías?",
-            "respuesta": "" 
+            "respuesta": "- OWL.\n- Protégé.\n- Jena.\n- DAMLdotnetAPI." 
         }
     ]
 }
