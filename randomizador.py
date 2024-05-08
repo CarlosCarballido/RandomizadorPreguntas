@@ -35,7 +35,7 @@ def limpiar_pantalla():
 if __name__ == "__main__":
     print("Bienvenido al randomizador de preguntas")
     
-    randomizador = Randomizador("preguntasRCR.json")
+    randomizador = Randomizador("PreguntasJSON/preguntasRCR.json")
     randomizador.cargar_preguntas()
     
     print("Presione Ctrl+C para salir del programa")
