@@ -2,7 +2,52 @@
     "preguntas" :[
         {
             "id" : 1,
-            "pregunta" : "",
+            "pregunta" : "Define datos enlazados",
+            "respuesta" : ""
+        },
+        {
+            "id" : 2,
+            "pregunta" : "Enuncia los 4 principios que caracterizan los datos enlazados",
+            "respuesta" : ""
+        },
+        {
+            "id" : 3,
+            "pregunta" : "¿Qué es RDF?",
+            "respuesta" : ""
+        },
+        {
+            "id" : 4,
+            "pregunta" : "¿Cuáles son los 3 componentes principales de RDF?",
+            "respuesta" : ""
+        },
+        {
+            "id" : 5,
+            "pregunta" : "¿Cómo se expresan las declaraciones en RDF?",
+            "respuesta" : ""
+        },
+        {
+            "id" : 6,
+            "pregunta" : "¿Cuáles son las ventajas de RDF?",
+            "respuesta" : ""
+        },
+        {
+            "id" : 7,
+            "pregunta" : "Define los componentes fundamentales de RDF",
+            "respuesta" : ""
+        },
+        {
+            "id" : 8,
+            "pregunta" : "¿Qué es JSON?",
+            "respuesta" : ""
+        },
+        {
+            "id" : 9,
+            "pregunta" : "¿Qué formas hay de representar los datos en formato JSON?",
+            "respuesta" : ""
+        },
+        {
+            "id" : 10,
+            "pregunta" : "¿Cuáles son los componentes fundamentales de JSON?",
             "respuesta" : ""
         }
     ]
