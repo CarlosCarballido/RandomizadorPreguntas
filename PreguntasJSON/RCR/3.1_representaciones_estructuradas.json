@@ -3,77 +3,77 @@
         {
             "id": 1,
             "pregunta": "Dime los dos tipos de representaciones estructuradas",
-            "repuesta": "- Macros: usan grafos para establecer relaciones entre conceptos.\n- Redes semanticas: usan grafos para establecer estructuras de jerarquia entre conceptos."
+            "respuesta": "- Macros: usan grafos para establecer relaciones entre conceptos.\n- Redes semanticas: usan grafos para establecer estructuras de jerarquia entre conceptos."
         },
         {
             "id": 2,
             "pregunta": "Define Red , Red asociativa y Red Semántica",
-            "repuesta": "- Red: conjunto de nodos unidos entre si por un enlace.\nRed asociativa: cada nodo representa un nodo, los enlaces se corresponden con las relaciones que se establecen entre estos paquetes.\n- Redes semanticas: Tipo de red asocuativa destinada a comprender el lenguaje natural. Es una notacion grafica(grafo) donde Red = grafo, Concepto = Nodo y Relacion = Arco. Es u grafo G=(N, A) en donde N = conjunto de nodos del grafo y A = conjunto de arcos del grafo"
+            "respuesta": "- Red: conjunto de nodos unidos entre si por un enlace.\nRed asociativa: cada nodo representa un nodo, los enlaces se corresponden con las relaciones que se establecen entre estos paquetes.\n- Redes semanticas: Tipo de red asocuativa destinada a comprender el lenguaje natural. Es una notacion grafica(grafo) donde Red = grafo, Concepto = Nodo y Relacion = Arco. Es G un grafo G=(N, A) en donde N = conjunto de nodos del grafo y A = conjunto de arcos del grafo"
         },
         {
             "id": 3,
             "pregunta": "¿Qué tipos de redes semánticas hay?",
-            "repuesta": "Sistemas Asertivos y Sistemas Taxonomicos"
+            "respuesta": "Sistemas Asertivos y Sistemas Taxonomicos"
         },
         {
             "id": 4,
             "pregunta": "Define los sistemas asertivos",
-            "repuesta": "Representan afirmaciones concretas.\nNo incluyen definiciones de conceptos ni clasisficaciones jerarquicas.\nNo excluyen la posibilidad logica de una contradiccion."
+            "respuesta": "Representan afirmaciones concretas.\nNo incluyen definiciones de conceptos ni clasisficaciones jerarquicas.\nNo excluyen la posibilidad logica de una contradiccion."
         },
         {
             "id": 5,
             "pregunta": "Define los sistemas taxonómicos",
-            "repuesta": "Permiten relacionar los conceptos mediante jerarquias.\nLos tipos de relaciones que influyen son:\n\t- Relaciones de instancias\n\t- Relaciones entre conjuntos y subconjuntos\n\t- Relaciones de pertenencia\n\t- Propiedades"
+            "respuesta": "Permiten relacionar los conceptos mediante jerarquias.\nLos tipos de relaciones que influyen son:\n\t- Relaciones de instancias\n\t- Relaciones entre conjuntos y subconjuntos\n\t- Relaciones de pertenencia\n\t- Propiedades"
         },
         {
             "id": 6,
             "pregunta": "Define los modelos de memoria semántica o grafos relacionales de Quilian",
-            "repuesta": "Primer modelo de representacion formalizado en el ambito de las redes semanticas (1960s).\nModelo conceptual para la representacion del significado fundamentao en la mente humana.\nRepresentacion del conocimiento simulando como se hace en un diccionario, consta de terminos y enlaces que unen esos terminos (Grafo Relacional)."
+            "respuesta": "Primer modelo de representacion formalizado en el ambito de las redes semanticas (1960s).\nModelo conceptual para la representacion del significado fundamentao en la mente humana.\nRepresentacion del conocimiento simulando como se hace en un diccionario, consta de terminos y enlaces que unen esos terminos (Grafo Relacional)."
         },
         {
             "id": 7,
             "pregunta": "En base a los grafos de Quillian define: Planos, Nodos-tipo, Nodos-réplica, Relaciones , Nodo-Intersección.",
-            "repuesta": "- Planos: Representan el grafo de una acepcion a la que pertenece.\n- Nodos-tipo: Representan los encabezamientos de las defniciones en el diccionario.\n- Nodos-replica: Representan terminos que aparecen en la propia definicion y que tienen su nodo-tipo correspondiente.\n- Relaciones:\n\t- Subclase: une un nodo-tipo con la clase a la que pertenece.\n\t- Disyuncion: etiqueta 'OR', une nodos entre si.\n\t- Conjuncion: etiqueta'AND', une nodos entre si.\n\tPropiedad: se usa para unir tres nodos A, B y C, donde A es la relacion, B es el sujeto y C es el objeto.\n\t- Referencia al tipo: estas relaciones van siempre desde el nodo-replica hasta al nodo-tipo en planos diferentes.\n- Nodo-Interseccion: nodo de concepto comun entre dos palabras que indica que estan relacionadas."
+            "respuesta": "- Planos: Representan el grafo de una acepcion a la que pertenece.\n- Nodos-tipo: Representan los encabezamientos de las defniciones en el diccionario.\n- Nodos-replica: Representan terminos que aparecen en la propia definicion y que tienen su nodo-tipo correspondiente.\n- Relaciones:\n\t- Subclase: une un nodo-tipo con la clase a la que pertenece.\n\t- Disyuncion: etiqueta 'OR', une nodos entre si.\n\t- Conjuncion: etiqueta'AND', une nodos entre si.\n\tPropiedad: se usa para unir tres nodos A, B y C, donde A es la relacion, B es el sujeto y C es el objeto.\n\t- Referencia al tipo: estas relaciones van siempre desde el nodo-replica hasta al nodo-tipo en planos diferentes.\n- Nodo-Interseccion: nodo de concepto comun entre dos palabras que indica que estan relacionadas."
         },
         {
             "id": 8,
             "pregunta": "¿Qué problemas encontramos en los grafos de Quillian?",
-            "repuesta": "- Se presentan palabras, por lo tanto, esto los hace muy dependientes del idioma y la polisemia aumenta mucho la complejidad de los grafos."
+            "respuesta": "- Se presentan palabras, por lo tanto, esto los hace muy dependientes del idioma y la polisemia aumenta mucho la complejidad de los grafos."
         },
         {
             "id": 9,
             "pregunta": "¿Qué propusieron los grafos de dependencia conceptual de Schank?",
-            "repuesta": "Representar conceptos y no palabras (como hacen los grafos de Quillian) mediante el uso de primitivas."
+            "respuesta": "Representar conceptos y no palabras (como hacen los grafos de Quillian) mediante el uso de primitivas."
         },
         {
             "id": 10,
             "pregunta": "Dime los tres tipos de primitivas para los grafos de Shank , define cada uno de ellos con lo que contienen.",
-            "repuesta": "1. Categorias Conceptuales.\n2.Reglas Sintacticas.\n3.Acciones Primitivas."
+            "respuesta": "1. Categorias Conceptuales.\n2.Reglas Sintacticas.\n3.Acciones Primitivas."
         },
         {
             "id": 11,
             "pregunta": "¿Qué problemas se encontraron en los grafos de Shank?",
-            "repuesta": "- Son excesivamente laboriosos debido a una descripcion de las acciones demasiado detallada.\n- No permite distintos niveles de detalle debido al uso de primitivas"
+            "respuesta": "- Son excesivamente laboriosos debido a una descripcion de las acciones demasiado detallada.\n- No permite distintos niveles de detalle debido al uso de primitivas"
         },
         {
             "id": 12,
             "pregunta": "¿Qué es la jerarquía de conceptos?",
-            "repuesta": "Una jerarquia taxonomica de clases anidadas constituida por un sistema de enlaces de herencia. Se representa mediante un grafo dirigido aciclico en el que los nodos inferiores denotan conceptos mas concretos o individuos, los superiores denotan clases de individuos. Si hay un arco de A a B entonces A es mas general que B, B hereda todas las propiedades de A y concreta nuevas propiedas. Existen 2 tipos de herencia: La herencia estricta, donde todos los conceptos heredados tienen las mismas propiedades, y la herencia Por Defecto, donde puede que no tengan las mismas propiedades."
+            "respuesta": "Una jerarquia taxonomica de clases anidadas constituida por un sistema de enlaces de herencia. Se representa mediante un grafo dirigido aciclico en el que los nodos inferiores denotan conceptos mas concretos o individuos, los superiores denotan clases de individuos. Si hay un arco de A a B entonces A es mas general que B, B hereda todas las propiedades de A y concreta nuevas propiedas. Existen 2 tipos de herencia: La herencia estricta, donde todos los conceptos heredados tienen las mismas propiedades, y la herencia Por Defecto, donde puede que no tengan las mismas propiedades."
         },
         {
             "id": 13,
             "pregunta": "¿Que son los macros?",
-            "repuesta": "Son una introduccion de las Redes Semanticas propuesta por Minsky (1970s). Son para abordar problemas de la logica con una forma especial de representacion de conceptos al estilo de las Redes Semanticas pero se utilizan clase en vez de nodos. Son una coleccion de ranuras o casillas donde se alamacena informacion."
+            "respuesta": "Son una introduccion de las Redes Semanticas propuesta por Minsky (1970s). Son para abordar problemas de la logica con una forma especial de representacion de conceptos al estilo de las Redes Semanticas pero se utilizan clase en vez de nodos. Son una coleccion de ranuras o casillas donde se alamacena informacion."
         },
         {
             "id": 14,
             "pregunta": "Nombra cada componente de los marcos",
-            "repuesta": "- Nombre del marco\n- Relaciones de un marco con otro.\n- Valor de la casilla.\n- Valor por defecto de la casilla.\n- Informacion Procedimental(procedimiento que se ejecuta si el valor de la casilla cambió o si se necesita hacer alguna comprobacion, a estos procedimientos se les llama demonios)."
+            "respuesta": "- Nombre del marco\n- Relaciones de un marco con otro.\n- Valor de la casilla.\n- Valor por defecto de la casilla.\n- Informacion Procedimental(procedimiento que se ejecuta si el valor de la casilla cambió o si se necesita hacer alguna comprobacion, a estos procedimientos se les llama demonios)."
         },
         {
             "id": 15,
             "pregunta": "Dime las ventajas que tienen los marcos",
-            "repuesta": "- Precision: todas las propiedades toman un valor.\n- Sobrecontrol: el nodo hijo hereda las casillas del padre.\n- Herencia por defecto no monotonica: posibilidad de negar herencia.\n- Activacion dinamica de procesos.\n- Modularidad: los nodos son de dos tipos, de clase o de inferencia.\n- Incorpora Mecanismos de Razonamiento: razonamiento de patrones o razonamiento por defecto."
+            "respuesta": "- Precision: todas las propiedades toman un valor.\n- Sobrecontrol: el nodo hijo hereda las casillas del padre.\n- Herencia por defecto no monotonica: posibilidad de negar herencia.\n- Activacion dinamica de procesos.\n- Modularidad: los nodos son de dos tipos, de clase o de inferencia.\n- Incorpora Mecanismos de Razonamiento: razonamiento de patrones o razonamiento por defecto."
         }
     ]
 }

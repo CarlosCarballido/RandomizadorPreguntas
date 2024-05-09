@@ -58,7 +58,7 @@
         {
             "id": 12,
             "pregunta": "Define el razonamiento hacia atras",
-            "respuesta": "Una regla es activada si su consecuente empareja con alguno de los hechos del sistema.\nHace referencia solo al proceso de busqueda y a la seleccion de las reglas, partiendo de las conclusiones.\nEs util cuando los datos iniciales son muy numeros.\nSe requiere que el usuario primero seleccione un objetivo.\nSi no se obtine soucion, el algoritmo pregunta al usuario en busca de nueva informacion."
+            "respuesta": "Una regla es activada si su consecuente empareja con alguno de los hechos del sistema.\nHace referencia solo al proceso de busqueda y a la seleccion de las reglas, partiendo de las conclusiones.\nEs util cuando los datos iniciales son muy numeros.\nSe requiere que el usuario primero seleccione un objetivo.\nSi no se obtine solucion, el algoritmo pregunta al usuario en busca de nueva informacion."
         },
         {
             "id": 13,
