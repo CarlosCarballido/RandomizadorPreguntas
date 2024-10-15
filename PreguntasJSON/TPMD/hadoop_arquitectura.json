@@ -7,8 +7,8 @@
         },
         {
             "id": 2,
-            "pregunta": "¿Qué diferencias clave existen entre Hadoop V1 y Hadoop V2?",
-            "respuesta": "En Hadoop V1, MapReduce gestionaba tanto la administración de recursos como la ejecución de trabajos. En Hadoop V2, se introdujo YARN, que separa la gestión de recursos del procesamiento, permitiendo que otros proyectos, además de MapReduce, se ejecuten en Hadoop."
+            "pregunta": "¿Qué diferencias clave existen entre Hadoop V1, Hadoop V2 y Hadoop V3?",
+            "respuesta": "En Hadoop V1, MapReduce gestionaba tanto la administración de recursos como la ejecución de trabajos. Name Node era el unico punto de fallo. Era costoso iniciar el Node Secondary. Requeriria intervencion del sysadmin para actuar. En Hadoop V2, se introdujo YARN, que separa la gestión de recursos del procesamiento, permitiendo que otros proyectos, además de MapReduce, se ejecuten en Hadoop. Se introdujo HDFS federation y HDFS high availability. Se introdujo la capacidad de reiniciar el NameNode sin intervencion del sysadmin. La recuperacion del sistema en segundos. En V3 se introdujo el erasure coding."
         },
         {
             "id": 3,
@@ -99,6 +99,22 @@
             "id": 20,
             "pregunta": "¿Cuáles son las principales desventajas de HDFS para el acceso a archivos pequeños?",
             "respuesta": "HDFS no es eficiente para el acceso a muchos archivos pequeños, ya que cada archivo tiene metadatos almacenados en el NameNode, lo que puede sobrecargar su memoria. Además, el sistema está optimizado para operaciones de lectura secuencial y no para acceso aleatorio."
+        },
+        {
+            "id": 21,
+            "pregunta": "Nombra los cuatro modulos de Hadoop",
+            "respuesta": "Hadoop Common, Hadoop Distributed File System (HDFS), Hadoop YARN y Hadoop MapReduce."
+        },
+        {
+            "id": 22,
+            "pregunta": "Nombra los cuatro conceptos clave de YARN",
+            "respuesta": "Resource Manager, Node Manager, Container y Application Master."
+
+        },
+        {
+            "id": 23,
+               "pregunta": "Ventajas de usar el bloque en almacenamiento de HDFS",
+               "respuesta": "Los bloques de gran tamaño permiten una lectura secuencial eficiente, reduciendo el tiempo de búsqueda y optimizando el rendimiento de I/O en sistemas distribuidos. Permite que se almnacen grandes volúmenes de información en sistemas distribuidos. Permite la separacion de metadatos y bloques de datos. Facilita la replicacion y ayuda a gestionar el espacio libre."
         }
     ]
 }
