@@ -88,7 +88,7 @@
         {
             "id": 18,
             "pregunta": "Describe el proceso de escritura de un archivo en HDFS.",
-            "respuesta": "El cliente solicita al NameNode crear un archivo en el sistema. El cliente empieza a escribir datos en un DataNode, que replica los bloques en otros DataNodes asignados. El NameNode confirma la finalización una vez que todas las réplicas están completas."
+            "respuesta": "El cliente solicita al NameNode crear un archivo en el sistema. El cliente empieza a escribir datos en un DataNode, que replica los bloques en otros DataNodes asignados para tener Data Replication. El NameNode confirma la finalización una vez que todas las réplicas están completas."
         },
         {
             "id": 19,
@@ -113,8 +113,58 @@
         },
         {
             "id": 23,
-               "pregunta": "Ventajas de usar el bloque en almacenamiento de HDFS",
-               "respuesta": "Los bloques de gran tamaño permiten una lectura secuencial eficiente, reduciendo el tiempo de búsqueda y optimizando el rendimiento de I/O en sistemas distribuidos. Permite que se almnacen grandes volúmenes de información en sistemas distribuidos. Permite la separacion de metadatos y bloques de datos. Facilita la replicacion y ayuda a gestionar el espacio libre."
+            "pregunta": "Ventajas de usar el bloque en almacenamiento de HDFS",
+            "respuesta": "Los bloques de gran tamaño permiten una lectura secuencial eficiente, reduciendo el tiempo de búsqueda y optimizando el rendimiento de I/O en sistemas distribuidos. Permite que se almnacen grandes volúmenes de información en sistemas distribuidos. Permite la separacion de metadatos y bloques de datos. Facilita la replicacion y ayuda a gestionar el espacio libre."
+        },
+        {
+            "id": 24,
+            "pregunta": "¿Qué es el NameNode en HDFS?",
+            "respuesta": "El NameNode es un nodo maestro en HDFS que almacena los metadatos del sistema de archivos, como la estructura de directorios, los permisos de acceso y la ubicación de los bloques de datos. Es un punto único de fallo en HDFS."
+        },
+        {
+            "id": 25,
+            "pregunta": "¿Qué es el DataNode en HDFS?",
+            "respuesta": "El DataNode es un nodo trabajador en HDFS que almacena los bloques de datos en el sistema de archivos distribuido. Es responsable de la lectura y escritura de datos en los bloques asignados y de reportar su estado al NameNode."
+        },
+        {
+            "id": 26,
+            "pregunta": "¿Qué es el Secondary NameNode en HDFS?",
+            "respuesta": "El Secondary NameNode es un nodo secundario en HDFS que realiza tareas de respaldo y mantenimiento del NameNode. Ayuda a reducir el tiempo de recuperación en caso de fallo del NameNode."
+        },
+        {
+            "id": 27,
+            "pregunta": "¿Qué es el ResourceManager en YARN?",
+            "respuesta": "El ResourceManager es un componente maestro en YARN que gestiona los recursos globales del clúster, como la memoria y la CPU, y coordina la ejecución de aplicaciones distribuidas en los nodos trabajadores."
+        },
+        {
+            "id": 28,
+            "pregunta": "¿Qué es el NodeManager en YARN?",
+            "respuesta": "El NodeManager es un componente trabajador en YARN que gestiona los recursos locales en un nodo del clúster, como la memoria y la CPU, y ejecuta las tareas asignadas por el ResourceManager."
+        },
+        {
+            "id": 29,
+            "pregunta": "¿Qué es un Container en YARN?",
+            "respuesta": "Un Container es un conjunto de recursos asignados a una aplicación en YARN, que incluye memoria, CPU y otros recursos necesarios para ejecutar la aplicación de forma aislada en un nodo del clúster."
+        },
+        {
+            "id": 30,
+            "pregunta": "¿Qué es el ApplicationMaster en YARN?",
+            "respuesta": "El ApplicationMaster es un componente en YARN que gestiona la ejecución de una aplicación específica en el clúster, solicitando recursos al ResourceManager, coordinando la ejecución de tareas en los nodos y gestionando el estado de la aplicación."
+        },
+        {
+            "id": 31,
+            "pregunta": "Ventajas de hadoop en comparacion con otros sistemas de almacenamiento y procesamiento de datos",
+            "respuesta": "Hadoop es escalable, tolerante a fallos, de código abierto, distribuido, eficiente en costos, flexible y compatible con una amplia variedad de fuentes de datos y tipos de datos."
+        },
+        {
+            "id": 32,
+            "pregunta": "Cuales son las limitaciones de Hadoop",
+            "respuesta": "Estilo de Programacion engorroso, ineficiente para aplicaciones que comparten datos en multiples pasos, no es eficiente para acceso a archivos pequeños, no es eficiente para operaciones de lectura y escritura aleatoria."
+        },
+        {
+            "id": 33,
+            "pregunta": "Claves de diseño de HDFS",
+            "respuesta": "Diseñado para manejar grandes volúmenes de datos, escritura de datos unica y lectura de datos multiple,diseñado para hardware economico, prioriza el alo rendimeinto sobre la latencia baja"
         }
     ]
 }
