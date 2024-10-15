@@ -2,88 +2,103 @@
     "preguntas": [
         {
             "id": 1,
-            "pregunta": "¿Qué es Hadoop y qué problemas busca resolver?",
-            "respuesta": "Hadoop es un framework de código abierto que permite el almacenamiento distribuido y el procesamiento de grandes volúmenes de datos. Está diseñado para manejar fallos y trabajar con hardware de bajo coste, permitiendo a las organizaciones procesar datos de forma eficiente y escalable."
+            "pregunta": "¿Qué es Hadoop y cuáles son sus principales módulos?",
+            "respuesta": "Hadoop es un marco de trabajo de código abierto escrito en Java que permite el almacenamiento y procesamiento distribuido de grandes conjuntos de datos. Sus principales módulos son: Hadoop Common, Hadoop Distributed File System (HDFS), Hadoop YARN y Hadoop MapReduce."
         },
         {
             "id": 2,
-            "pregunta": "Menciona los módulos principales de Hadoop.",
-            "respuesta": "Los módulos principales de Hadoop son: Hadoop Common, Hadoop Distributed File System (HDFS), Hadoop YARN y Hadoop MapReduce."
+            "pregunta": "¿Qué diferencias clave existen entre Hadoop V1 y Hadoop V2?",
+            "respuesta": "En Hadoop V1, MapReduce gestionaba tanto la administración de recursos como la ejecución de trabajos. En Hadoop V2, se introdujo YARN, que separa la gestión de recursos del procesamiento, permitiendo que otros proyectos, además de MapReduce, se ejecuten en Hadoop."
         },
         {
             "id": 3,
-            "pregunta": "¿Cuáles son las características del Hadoop Distributed File System (HDFS)?",
-            "respuesta": "HDFS es un sistema de archivos distribuido que proporciona tolerancia a fallos y alta disponibilidad. Está optimizado para almacenar archivos grandes y opera bajo un patrón de acceso de escritura única y lectura múltiple. Utiliza la replicación para prevenir la pérdida de datos y garantizar la fiabilidad del sistema."
+            "pregunta": "Explica la arquitectura maestro/trabajador en Hadoop.",
+            "respuesta": "Hadoop sigue una arquitectura maestro/trabajador donde un nodo maestro (NameNode en HDFS o Resource Manager en YARN) gestiona los recursos y la planificación, mientras que los nodos trabajadores (DataNodes en HDFS o Node Managers en YARN) ejecutan las tareas asignadas y almacenan los datos."
         },
         {
             "id": 4,
-            "pregunta": "¿Cuál es la estructura general de un programa MapReduce?",
-            "respuesta": "Un programa MapReduce se compone de dos funciones principales: map y reduce. La función map procesa datos de entrada y genera pares clave-valor, mientras que la función reduce toma esos pares y los procesa para producir el resultado final, agrupando por clave."
+            "pregunta": "¿Qué es el modelo de programación MapReduce?",
+            "respuesta": "MapReduce es un modelo de programación diseñado para procesar grandes volúmenes de datos distribuidos en varios nodos. Consiste en dos fases principales: 'map', que transforma los datos de entrada en pares clave-valor, y 'reduce', que agrega y procesa estos pares."
         },
         {
             "id": 5,
-            "pregunta": "Explica brevemente el flujo de ejecución de un proceso MapReduce.",
-            "respuesta": "El flujo de ejecución de MapReduce consiste en: 1) El cliente envía el trabajo al Resource Manager, 2) El Resource Manager asigna un contenedor para ejecutar el Application Master, 3) El Application Master solicita más contenedores para ejecutar las tareas de map y reduce, 4) Se ejecutan las tareas y se liberan los contenedores cuando se completan, 5) El Application Master finaliza y se libera el contenedor principal."
+            "pregunta": "¿Cómo se organiza y ejecuta un proceso de MapReduce en Hadoop?",
+            "respuesta": "El proceso se organiza en dos etapas: la fase 'map', que divide los datos y los transforma en pares clave-valor, y la fase 'reduce', que toma estos pares y los agrupa para realizar un procesamiento adicional. El proceso es coordinado por YARN en Hadoop V2."
         },
         {
             "id": 6,
-            "pregunta": "¿Qué ventajas presenta MapReduce frente a modelos de procesamiento distribuido tradicionales?",
-            "respuesta": "MapReduce simplifica el desarrollo de aplicaciones distribuidas al proporcionar un marco para el procesamiento paralelo. Ofrece tolerancia a fallos, escalabilidad y una gestión eficiente de los recursos en clusters de gran tamaño."
+            "pregunta": "¿Cuál es el propósito de las funciones de map y reduce en el contexto de Hadoop?",
+            "respuesta": "La función 'map' transforma los datos de entrada en pares clave-valor, mientras que la función 'reduce' toma estos pares, los agrupa por clave y aplica una operación de agregación para producir un resultado consolidado."
         },
         {
             "id": 7,
-            "pregunta": "¿Cuáles son los cuatro conceptos principales de YARN?",
-            "respuesta": "Los cuatro conceptos principales de YARN son: Resource Manager, Node Manager, Container y Application Master."
+            "pregunta": "¿Qué es YARN y qué papel desempeña en Hadoop?",
+            "respuesta": "YARN (Yet Another Resource Negotiator) es un sistema de gestión de recursos en Hadoop que permite la ejecución de múltiples aplicaciones distribuidas, incluida pero no limitada a MapReduce. Coordina el uso de recursos como CPU y memoria en el clúster."
         },
         {
             "id": 8,
-            "pregunta": "Explica la función del Resource Manager y del Node Manager.",
-            "respuesta": "El Resource Manager es el proceso que controla los recursos disponibles en el cluster y gestiona las solicitudes de las aplicaciones. El Node Manager se encarga de lanzar y rastrear los procesos asignados a los nodos de trabajo y de informar al Resource Manager sobre la salud del nodo."
+            "pregunta": "¿Cuáles son los cuatro conceptos clave alrededor de los que se organiza YARN?",
+            "respuesta": "Los cuatro conceptos clave en YARN son: Resource Manager (gestiona los recursos globales), Node Manager (gestiona los recursos locales en los nodos), Container (subconjunto de recursos asignados) y Application Master (gestiona la ejecución de una aplicación específica)."
         },
         {
             "id": 9,
-            "pregunta": "Describe las etapas para ejecutar un proceso MapReduce en Hadoop.",
-            "respuesta": "Las etapas para ejecutar un proceso MapReduce son: 1) El cliente lanza el proceso y se conecta al Resource Manager, 2) El Resource Manager solicita un contenedor para el Application Master, 3) El Application Master solicita contenedores adicionales para ejecutar las tareas, 4) Todas las tareas se ejecutan en contenedores y se liberan al finalizar, 5) El Application Master finaliza y libera el último contenedor."
+            "pregunta": "¿Qué ventajas aporta la inclusión de YARN en la versión 2 de Hadoop?",
+            "respuesta": "YARN permite que Hadoop ejecute múltiples aplicaciones distribuidas más allá de MapReduce, optimizando el uso de recursos y proporcionando mayor flexibilidad en la ejecución de trabajos. Esto también mejora el rendimiento y la escalabilidad."
         },
         {
             "id": 10,
-            "pregunta": "¿Qué es un bloque en HDFS y por qué su tamaño es tan grande?",
-            "respuesta": "Un bloque en HDFS es la unidad mínima de almacenamiento de datos. Su tamaño grande (64MB o 128MB) permite minimizar el tiempo de búsqueda en disco y optimizar las operaciones de lectura y escritura de grandes volúmenes de datos."
+            "pregunta": "¿Qué es el sistema de archivos distribuidos de Hadoop (HDFS)?",
+            "respuesta": "HDFS es un sistema de archivos distribuido que almacena grandes volúmenes de datos en un clúster de nodos, asegurando la tolerancia a fallos mediante la replicación de los bloques de datos en múltiples nodos."
         },
         {
             "id": 11,
-            "pregunta": "Explica cómo se logra la tolerancia a fallos en HDFS.",
-            "respuesta": "HDFS logra la tolerancia a fallos mediante la replicación de bloques de datos en varios nodos. Si un nodo falla, los bloques replicados en otros nodos garantizan la disponibilidad de los datos y permiten recuperar el sistema rápidamente."
+            "pregunta": "¿Qué características hacen que HDFS sea adecuado para procesar Big Data?",
+            "respuesta": "HDFS maneja grandes volúmenes de datos distribuidos, con soporte para tolerancia a fallos mediante replicación. Está diseñado para acceso secuencial a datos y prioriza el alto rendimiento sobre la baja latencia, lo que lo hace ideal para análisis de Big Data."
         },
         {
             "id": 12,
-            "pregunta": "¿Cuáles son las diferencias entre HDFS V1 y HDFS V2?",
-            "respuesta": "En HDFS V1, el Name Node era el único punto de fallo y la recuperación era lenta. En HDFS V2 se añadieron la federación de Name Nodes y la alta disponibilidad, permitiendo una recuperación rápida y una gestión distribuida de los nombres de archivos."
+            "pregunta": "¿Cuáles son los mecanismos de tolerancia a fallos implementados en HDFS?",
+            "respuesta": "HDFS implementa la tolerancia a fallos mediante la replicación de datos, replicando cada bloque en al menos tres nodos. También incluye un nodo secundario (Secondary NameNode) para respaldar al NameNode en caso de fallo."
         },
         {
             "id": 13,
-            "pregunta": "Menciona algunas de las limitaciones que presenta Hadoop MapReduce.",
-            "respuesta": "Las limitaciones de Hadoop MapReduce incluyen: un estilo de programación complejo, velocidad ineficiente para aplicaciones iterativas o que comparten datos entre pasos, y un alto coste de E/S en disco debido a la serialización y replicación de datos."
+            "pregunta": "¿Cuáles son algunas de las limitaciones de Hadoop MapReduce?",
+            "respuesta": "MapReduce tiene una programación engorrosa y es ineficiente para aplicaciones que requieren múltiples pasos, como algoritmos iterativos o consultas interactivas. Además, la serialización de datos entre etapas y el uso intensivo del disco generan cuellos de botella."
         },
         {
             "id": 14,
-            "pregunta": "¿Qué tipo de aplicaciones no funcionan bien con MapReduce y por qué?",
-            "respuesta": "Las aplicaciones que requieren múltiples pasos iterativos, como los algoritmos de machine learning o los modelos de grafos, no funcionan bien con MapReduce debido al elevado coste de E/S en disco y a la baja velocidad de procesamiento."
+            "pregunta": "Menciona una alternativa a MapReduce que sea mejor para el procesamiento iterativo o consultas interactivas.",
+            "respuesta": "Apache Spark es una alternativa a MapReduce que es más eficiente para aplicaciones iterativas y consultas interactivas debido a su capacidad de mantener los datos en memoria durante el procesamiento, lo que reduce el tiempo de ejecución."
         },
         {
             "id": 15,
-            "pregunta": "¿Cuáles son algunas de las herramientas que complementan a Hadoop para la manipulación de datos?",
-            "respuesta": "Algunas herramientas que complementan a Hadoop son: Apache Hive para consultas SQL sobre HDFS, Apache Pig para flujos de datos ETL y Apache HBase para almacenamiento de datos con baja latencia."
+            "pregunta": "¿Qué es el ecosistema de Hadoop y qué herramientas lo componen?",
+            "respuesta": "El ecosistema de Hadoop incluye un conjunto de herramientas para procesamiento y gestión de datos, como Apache Hive (consultas SQL), Apache Pig (scripts para datos), Apache HBase (almacenamiento NoSQL), Apache Sqoop (importación/exportación de datos) y Apache Flume (ingesta de datos)."
         },
         {
             "id": 16,
-            "pregunta": "Explica el propósito de Apache Hive y Apache Pig en el ecosistema de Hadoop.",
-            "respuesta": "Apache Hive proporciona una interfaz SQL para consultas estructuradas sobre datos almacenados en HDFS, mientras que Apache Pig permite definir flujos de datos y transformaciones de manera más intuitiva que MapReduce."
+            "pregunta": "¿Cómo se diferencian Apache Hive, Apache Pig y Apache HBase en sus propósitos dentro del ecosistema Hadoop?",
+            "respuesta": "Apache Hive proporciona un lenguaje SQL para consultar grandes conjuntos de datos, Apache Pig permite crear scripts para transformar datos y Apache HBase es una base de datos NoSQL que almacena grandes cantidades de datos en tablas distribuidas."
         },
         {
             "id": 17,
-            "pregunta": "Nombra un algoritmo de Machine Learning que no funcione bien en Hadoop MapReduce y explica por qué.",
-            "respuesta": "Los algoritmos de machine learning basados en redes neuronales no funcionan bien en Hadoop MapReduce debido a la necesidad de múltiples iteraciones sobre el conjunto de datos y la dependencia entre cada paso de entrenamiento, lo que provoca una alta latencia y ralentiza el procesamiento."
+            "pregunta": "Explica cómo se lee un archivo desde HDFS.",
+            "respuesta": "Para leer un archivo desde HDFS, el cliente solicita al NameNode la ubicación de los bloques de datos. Luego, el cliente lee directamente desde los DataNodes más cercanos que contienen los bloques de datos requeridos."
+        },
+        {
+            "id": 18,
+            "pregunta": "Describe el proceso de escritura de un archivo en HDFS.",
+            "respuesta": "El cliente solicita al NameNode crear un archivo en el sistema. El cliente empieza a escribir datos en un DataNode, que replica los bloques en otros DataNodes asignados. El NameNode confirma la finalización una vez que todas las réplicas están completas."
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Por qué HDFS utiliza bloques de tamaño grande (64 MB o más) en comparación con sistemas de archivos tradicionales?",
+            "respuesta": "HDFS utiliza bloques grandes para minimizar el tiempo de búsqueda (seek time) durante la lectura de datos y optimizar el rendimiento de I/O al procesar grandes volúmenes de información en sistemas distribuidos."
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Cuáles son las principales desventajas de HDFS para el acceso a archivos pequeños?",
+            "respuesta": "HDFS no es eficiente para el acceso a muchos archivos pequeños, ya que cada archivo tiene metadatos almacenados en el NameNode, lo que puede sobrecargar su memoria. Además, el sistema está optimizado para operaciones de lectura secuencial y no para acceso aleatorio."
         }
     ]
 }

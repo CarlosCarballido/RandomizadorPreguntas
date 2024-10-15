@@ -63,10 +63,12 @@ if __name__ == "__main__":
         if id_pregunta == -1:
             randomizador.cargar_preguntas()
             print("Se rellean las preguntas de nuevo")
-        
+            
         print("\nPresione una tecla para ver la respuesta\n")
         randomizador.mostar_pregunta(id_pregunta)
         input()
         randomizador.mostrar_respuesta(id_pregunta)
         randomizador.eliminar_pregunta(id_pregunta)
+        input("\nPresione una tecla para continuar")
+        limpiar_pantalla()
         print()
