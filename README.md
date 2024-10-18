@@ -1,4 +1,5 @@
 # Randomizador de Preguntas
+
 ## Spanish Version
 
 Este programa en Python te permite cargar un conjunto de preguntas y respuestas desde un archivo JSON y luego mostrarlas de forma aleatoria. Es útil para realizar juegos de preguntas y respuestas de forma interactiva.
