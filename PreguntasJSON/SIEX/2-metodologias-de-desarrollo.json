@@ -1,0 +1,79 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Cuáles son las etapas típicas del ciclo de vida de un Sistema Basado en Conocimiento (SBC)?",
+            "respuesta": "Las etapas típicas incluyen la identificación del problema, adquisición del conocimiento, representación del conocimiento, diseño del sistema, implementación, pruebas y validación, despliegue, y mantenimiento y evolución continuos."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Qué diferencia existe entre Ingeniería del Conocimiento (IC) e Ingeniería del Software (IS)?",
+            "respuesta": "La principal diferencia es que la IC se centra en la adquisición y estructuración del conocimiento experto, mientras que la IS se enfoca en especificar requisitos y desarrollar procesos. En la IC, la adquisición del conocimiento es un proceso continuo y puede ser un cuello de botella en el desarrollo de SBC/SE."
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Qué metodologías se utilizan para el desarrollo de Sistemas Basados en Conocimiento?",
+            "respuesta": "Se utilizan metodologías adaptadas de la IS como prototipado rápido, desarrollo incremental, metodologías en espiral y ágiles, así como metodologías específicas de IC como MIKE y CommonKADS."
+        },
+        {
+            "id": 4,
+            "pregunta": "¿En qué consiste el prototipado rápido en el contexto de desarrollo de SBC?",
+            "respuesta": "El prototipado rápido implica la creación de un prototipo inicial del SBC/SE que se refina mediante la interacción con expertos para ajustar y mejorar el conocimiento representado. Es rápido, pero puede carecer de una fase previa de análisis exhaustivo."
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué es CommonKADS y por qué es importante en la Ingeniería del Conocimiento?",
+            "respuesta": "CommonKADS es una evolución de la metodología KADS que proporciona un marco estructurado para desarrollar SBC/SE, integrando aspectos de gestión de proyectos, análisis organizacional, ingeniería del conocimiento e ingeniería del software. Es importante porque facilita el desarrollo ágil y estructurado de SBC/SE."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Cuáles son los tres niveles de conocimiento en la metodología CommonKADS?",
+            "respuesta": "Los tres niveles de conocimiento en CommonKADS son: el nivel de contexto (¿Por qué?), que analiza la utilidad y viabilidad del SBC/SE; el nivel de concepto (¿Qué?), que describe el conocimiento relevante; y el nivel de diseño/implementación (¿Cómo?), que transforma el conocimiento en especificaciones técnicas para el desarrollo del sistema."
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Qué es el Modelo de Organización (OM) en CommonKADS?",
+            "respuesta": "El Modelo de Organización analiza las áreas de la organización que pueden beneficiarse del SBC/SE, evaluando el impacto y los resultados esperados de su implementación. Define cinco formularios (OM-1 a OM-5) para estructurar esta información."
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Qué es el Modelo de Tareas (TM) y qué función tiene en CommonKADS?",
+            "respuesta": "El Modelo de Tareas identifica y caracteriza las tareas importantes para la organización que pueden ser soportadas por un SBC/SE. Define las entradas, salidas, criterios, y condiciones relacionadas con las tareas y proporciona formularios específicos (TM-1, TM-2) para describirlas."
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Cuál es la importancia del Modelo de Conocimiento en CommonKADS?",
+            "respuesta": "El Modelo de Conocimiento especifica el conocimiento manejado por las tareas identificadas y organiza este conocimiento en categorías: conocimiento del dominio, conocimiento inferencial, y conocimiento de la tarea. Es esencial para estructurar y representar de manera clara el conocimiento que el SBC/SE utilizará."
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué tipo de tareas pueden abordarse con las plantillas de tareas de CommonKADS?",
+            "respuesta": "Las plantillas de tareas de CommonKADS permiten abordar tareas analíticas (clasificación, diagnóstico, predicción, monitorización) y tareas sintéticas (diseño, configuración, planificación, asignación), ofreciendo un marco para reutilizar y adaptar soluciones en diferentes contextos."
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué papel juegan los agentes en CommonKADS?",
+            "respuesta": "Los agentes en CommonKADS son los ejecutores de las tareas definidas en el Modelo de Tareas. Pueden ser personas, sistemas de información o SBC/SE, y el Modelo de Agentes caracteriza sus funciones, normas aplicables y comportamientos."
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Qué se entiende por 'metodologías en espiral' en el desarrollo de SBC?",
+            "respuesta": "Las metodologías en espiral implican iteraciones en capas, permitiendo la refinación progresiva de prototipos a todos los niveles (especificación, diseño, conocimiento). Esta metodología es flexible y ayuda a abordar la incertidumbre en el desarrollo de SBC/SE."
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Cuáles son los roles identificados por CommonKADS en el desarrollo de SBC?",
+            "respuesta": "CommonKADS identifica roles como el proveedor de conocimiento (experto), el ingeniero del conocimiento (responsable de adquirir el conocimiento), el desarrollador del SBC/SE (diseño e implementación), el usuario del sistema, el gestor del proyecto y el gestor del conocimiento."
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Cómo se define el mantenimiento en el ciclo de vida de un SBC?",
+            "respuesta": "El mantenimiento implica la actualización continua del SBC/SE para corregir errores, reflejar cambios en el conocimiento y adaptar el sistema a nuevas necesidades. Es una fase crucial para asegurar la relevancia y precisión del SBC/SE a lo largo del tiempo."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Por qué es importante la gestión de riesgos en metodologías ágiles para SBC?",
+            "respuesta": "La gestión de riesgos en metodologías ágiles permite anticipar y manejar incertidumbres y problemas potenciales durante el desarrollo, asegurando que el SBC/SE pueda adaptarse rápidamente a cambios y desafíos inesperados."
+        }
+    ]
+}
