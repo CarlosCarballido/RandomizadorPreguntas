@@ -1,0 +1,104 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Qué es el aprendizaje automático y cuál es su objetivo principal?",
+            "respuesta": "El aprendizaje automático es una técnica que busca mejorar el rendimiento de sistemas informáticos a través de métodos computacionales que aprenden de la experiencia. Su objetivo principal es desarrollar algoritmos que construyan modelos a partir de datos para hacer predicciones sobre nuevas observaciones."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Cómo se define el término 'instancia' en el contexto del aprendizaje automático?",
+            "respuesta": "En el aprendizaje automático, una 'instancia' es un registro individual dentro de un conjunto de datos que describe atributos o características de un evento u objeto, asignándoles valores específicos. También se conoce como muestra u observación."
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Qué se entiende por espacio de atributos en un conjunto de datos?",
+            "respuesta": "El espacio de atributos es un espacio N-dimensional definido por los diferentes atributos o características presentes en un conjunto de datos. Cada instancia puede ser representada como un vector en este espacio, lo que permite describirla de manera precisa."
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Cuál es la diferencia entre parámetros e hiperparámetros en los modelos de aprendizaje automático?",
+            "respuesta": "Los parámetros son valores internos que el modelo ajusta automáticamente durante el entrenamiento para minimizar el error en los datos. Los hiperparámetros, por otro lado, son configuraciones externas que controlan el proceso de entrenamiento y la estructura del modelo y deben ser definidos antes del entrenamiento."
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué es el sobreajuste y cómo afecta a un modelo de aprendizaje?",
+            "respuesta": "El sobreajuste ocurre cuando un modelo de aprendizaje automático aprende demasiado bien los detalles y el ruido de los datos de entrenamiento, lo que reduce su capacidad para generalizar a nuevos datos. Esto resulta en un alto rendimiento en datos de entrenamiento pero un bajo rendimiento en datos de prueba."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Qué tipos de problemas aborda el aprendizaje supervisado? Menciona dos.",
+            "respuesta": "El aprendizaje supervisado aborda problemas de clasificación (donde la salida es una etiqueta discreta) y de regresión (donde la salida es una variable continua)."
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Qué métodos de optimización se pueden usar para ajustar hiperparámetros?",
+            "respuesta": "Algunos métodos de optimización de hiperparámetros incluyen Búsqueda en Grid, Búsqueda Aleatoria, Optimización Bayesiana y Algoritmos Evolutivos, entre otros."
+        },
+        {
+            "id": 8,
+            "pregunta": "¿En qué consiste la clasificación binaria y cómo se diferencia de la clasificación multiclase?",
+            "respuesta": "La clasificación binaria implica predecir una de dos posibles clases (por ejemplo, 'positivo' o 'negativo'), mientras que la clasificación multiclase implica predecir una clase entre tres o más opciones posibles."
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué es un conjunto de entrenamiento y por qué es importante en el aprendizaje supervisado?",
+            "respuesta": "Un conjunto de entrenamiento es un subconjunto de datos etiquetados utilizado para enseñar al modelo a reconocer patrones. Es crucial porque define los ejemplos a partir de los cuales el modelo aprenderá y ajustará sus parámetros."
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué técnicas se mencionan para evitar el sobreajuste en modelos de aprendizaje automático?",
+            "respuesta": "Algunas técnicas para evitar el sobreajuste incluyen la regularización, el uso de conjuntos de validación, la validación cruzada (cross-validation), y la reducción de la complejidad del modelo."
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué es el error cuadrático medio (MSE) y cómo se utiliza en problemas de regresión?",
+            "respuesta": "El error cuadrático medio (MSE) es una medida que calcula el promedio de las diferencias al cuadrado entre los valores predichos por el modelo y los valores reales. En problemas de regresión, se utiliza para evaluar la precisión del modelo y ajustar sus parámetros para minimizar este error."
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Cuál es la diferencia entre underfitting y overfitting?",
+            "respuesta": "El underfitting ocurre cuando el modelo es demasiado simple y no puede capturar los patrones subyacentes en los datos de entrenamiento, mientras que el overfitting sucede cuando el modelo es demasiado complejo y se ajusta demasiado a los datos de entrenamiento, incluyendo su ruido. Ambos afectan la capacidad del modelo para generalizar."
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Qué es la regularización y cómo ayuda a mejorar los modelos de aprendizaje automático?",
+            "respuesta": "La regularización es una técnica que introduce una penalización para evitar que el modelo se ajuste demasiado a los datos de entrenamiento, reduciendo el riesgo de sobreajuste. Esto se logra añadiendo términos adicionales a la función de pérdida que limitan la complejidad del modelo."
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Qué significa 'generalización' en el contexto del aprendizaje automático?",
+            "respuesta": "La generalización se refiere a la capacidad de un modelo para realizar predicciones precisas sobre nuevos datos que no ha visto durante el entrenamiento. Un buen modelo generaliza bien cuando puede identificar patrones en datos no vistos previamente."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Cómo se puede medir la precisión de un modelo de clasificación?",
+            "respuesta": "La precisión de un modelo de clasificación se puede medir usando métricas como la exactitud (accuracy), la precisión (precision), el recall (sensibilidad) y el F1-score, que combinan precisión y recall para ofrecer una evaluación más equilibrada del rendimiento del modelo."
+        },
+        {
+            "id": 16,
+            "pregunta": "¿Cuál es la función de un conjunto de validación en el aprendizaje supervisado?",
+            "respuesta": "Un conjunto de validación se utiliza para ajustar los hiperparámetros del modelo durante el proceso de entrenamiento. No participa directamente en el entrenamiento, pero ayuda a prevenir el sobreajuste al evaluar el rendimiento del modelo con datos que no han sido usados para ajustar los parámetros."
+        },
+        {
+            "id": 17,
+            "pregunta": "¿Qué es la validación cruzada (cross-validation) y por qué es útil?",
+            "respuesta": "La validación cruzada es una técnica que divide el conjunto de datos en varios pliegues y entrena el modelo múltiples veces con diferentes combinaciones de datos de entrenamiento y validación. Es útil para asegurar que el modelo generalice bien y no dependa demasiado de un subconjunto específico de datos."
+        },
+        {
+            "id": 18,
+            "pregunta": "¿En qué consiste la técnica de 'One vs. All' en clasificación multiclase?",
+            "respuesta": "La técnica 'One vs. All' entrena un clasificador binario para cada clase, donde cada modelo predice si una muestra pertenece o no a una clase en particular. Luego, se utiliza un esquema de votación para decidir la clase final a la que pertenece la muestra."
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Qué es la regresión lineal y cuándo se utiliza?",
+            "respuesta": "La regresión lineal es un método que busca encontrar la mejor línea que ajuste los datos, modelando la relación entre una variable dependiente y una o más variables independientes. Se utiliza cuando la salida que queremos predecir es continua."
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Qué es el trade-off entre sesgo y varianza y cómo afecta a los modelos de aprendizaje?",
+            "respuesta": "El trade-off entre sesgo y varianza refleja la necesidad de equilibrar un modelo que sea lo suficientemente flexible para captar patrones (baja varianza) pero sin ser tan simple que no capture la complejidad (bajo sesgo). Un modelo ideal tiene un equilibrio que minimiza ambos errores para generalizar bien."
+        }
+    ]
+}
