@@ -1,0 +1,79 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Qué es un Sistema Experto y cuál es su objetivo principal?",
+            "respuesta": "Un Sistema Experto es un sistema computacional diseñado para emular la capacidad de toma de decisiones de un experto humano en un dominio específico. Su objetivo es resolver problemas complejos que normalmente requerirían la intervención de un ser humano con conocimientos profundos."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Cuáles son los elementos fundamentales de un Sistema Basado en Conocimiento (SBC)?",
+            "respuesta": "Los elementos fundamentales de un SBC incluyen la base de conocimientos (BC), el motor de inferencia (MI), y la interfaz de usuario. La BC contiene la representación interna del conocimiento, el MI utiliza métodos de razonamiento para obtener nuevos conocimientos, y la interfaz de usuario permite la interacción."
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Qué se entiende por 'ingeniería del conocimiento'?",
+            "respuesta": "La ingeniería del conocimiento es el proceso de adquisición, representación, validación y mantenimiento del conocimiento en un Sistema Experto. Incluye metodologías como KADS y CommonKADS para estructurar y gestionar el conocimiento."
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Cuál fue el primer Sistema Experto desarrollado y para qué se utilizaba?",
+            "respuesta": "El primer Sistema Experto desarrollado fue 'DENDRAL', creado para inferir estructuras moleculares a partir de datos de espectrometría de masas. Fue pionero en el uso de reglas de inferencia para resolver problemas complejos."
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué avances permitieron el auge de los Sistemas Expertos en los años 80?",
+            "respuesta": "El auge de los Sistemas Expertos en los años 80 se debió al desarrollo de metodologías estructuradas (como KADS), herramientas genéricas (shells), y técnicas avanzadas como las redes bayesianas y el razonamiento basado en casos."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Qué es MYCIN y por qué fue importante?",
+            "respuesta": "MYCIN fue un Sistema Experto desarrollado en los años 70 para el diagnóstico y tratamiento de infecciones bacterianas. Su importancia radica en que fue uno de los primeros sistemas en demostrar la capacidad de razonamiento con incertidumbre y en incluir un generador de explicaciones para justificar las decisiones."
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Qué es la 'explicabilidad' en el contexto de los Sistemas Expertos?",
+            "respuesta": "La explicabilidad se refiere a la capacidad de los Sistemas Expertos para justificar sus decisiones mostrando el razonamiento y las reglas utilizadas. Es fundamental en dominios como la medicina y el derecho, donde es necesario entender cómo se llegó a una conclusión."
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Cómo ha impactado el aprendizaje automático en el desarrollo de Sistemas Expertos?",
+            "respuesta": "El aprendizaje automático ha llevado al desarrollo de sistemas híbridos que combinan técnicas de SBC con machine learning. Esto ha permitido manejar grandes volúmenes de datos, mejorar la precisión, y reducir la necesidad de intervención manual en la actualización del conocimiento."
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué caracteriza a los problemas adecuados para ser resueltos por Sistemas Expertos?",
+            "respuesta": "Los problemas adecuados para Sistemas Expertos son aquellos que requieren conocimiento especializado, tienen soluciones recurrentes, y se benefician de la formalización de reglas de inferencia. También suelen ser importantes para el negocio y tener una complejidad manejable."
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué diferencias existen entre los Sistemas Basados en Conocimiento (SBC) y los Sistemas de Información 'convencionales'?",
+            "respuesta": "Los SBC se centran en emular el razonamiento experto y usan conocimiento especializado, mientras que los sistemas de información convencionales gestionan datos transaccionales estructurados. Los SBC son menos flexibles y más costosos de mantener, pero ofrecen decisiones inteligentes justificadas."
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué ventajas tiene un Sistema Experto sobre los métodos de aprendizaje automático?",
+            "respuesta": "Las ventajas de los Sistemas Expertos incluyen la transparencia y explicabilidad de sus decisiones, la capacidad de modelar conocimientos específicos y la posibilidad de justificar las respuestas basadas en reglas explícitas, algo que falta en muchos modelos de aprendizaje automático complejos ('cajas negras')."
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Cuáles fueron algunos de los ejemplos de Sistemas Expertos mencionados en el documento?",
+            "respuesta": "Algunos ejemplos incluyen DENDRAL (para inferencia de estructuras moleculares), MYCIN (diagnóstico médico), XCON/R1 (configuración de sistemas hardware), y PROSPECTOR (análisis geológico)."
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Qué papel juegan las metodologías como CommonKADS en el desarrollo de Sistemas Expertos?",
+            "respuesta": "CommonKADS proporciona un marco para la estructuración del conocimiento y la definición de procesos de desarrollo eficientes, facilitando la creación, mantenimiento y evolución de Sistemas Expertos de manera ágil y coherente."
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Cómo han evolucionado los Sistemas Expertos hacia la actualidad?",
+            "respuesta": "Hoy en día, los Sistemas Expertos se integran en soluciones híbridas que combinan SBC con aprendizaje automático y otras tecnologías avanzadas. Esto ha permitido su resurgimiento en aplicaciones específicas, así como su uso en inteligencia artificial explicable (XAI)."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Qué es el razonamiento bayesiano y cómo se aplica en Sistemas Expertos?",
+            "respuesta": "El razonamiento bayesiano es una técnica probabilística que permite tomar decisiones bajo incertidumbre. En Sistemas Expertos, se utiliza para calcular la probabilidad de distintas hipótesis basándose en la evidencia disponible, lo que ayuda en la toma de decisiones informadas."
+        }
+    ]
+}
