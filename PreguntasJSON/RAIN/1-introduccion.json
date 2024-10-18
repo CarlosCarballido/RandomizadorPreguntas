@@ -1,0 +1,154 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Qué son los tres planos del razonamiento? Explícalos brevemente.",
+            "respuesta": "Los tres planos del razonamiento son: Lingüístico, que se refiere a las expresiones y oraciones que utilizamos; Conceptual, que representa las ideas abstractas y las relaciones entre conceptos; y Psicológico, que corresponde a los procesos mentales que ocurren al razonar."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Cómo se clasifica la lógica según la expresión lógica? Menciona al menos tres tipos de lógica y sus características.",
+            "respuesta": "La lógica se clasifica en función de las expresiones que maneja. Algunos tipos son: Lógica de enunciados, que trabaja con conectores como 'y', 'o', 'no'; Lógica de predicados, que incluye cuantificadores como 'para todo' y 'existe'; y Lógica modal, que introduce conceptos como 'necesariamente' y 'posiblemente'."
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Qué diferencia hay entre la semántica bivalente y la semántica multivalorada?",
+            "respuesta": "La semántica bivalente se basa en dos valores de verdad: verdadero o falso. En cambio, la semántica multivalorada permite más de dos valores, lo que resulta útil para representar incertidumbres o situaciones donde la verdad no es absoluta."
+        },
+        {
+            "id": 4,
+            "pregunta": "Explica brevemente qué es el razonamiento deductivo. ¿Cuál es su principal característica?",
+            "respuesta": "El razonamiento deductivo es un tipo de razonamiento en el que la conclusión se sigue necesariamente de las premisas. Su principal característica es que, si las premisas son verdaderas, la conclusión también debe serlo."
+        },
+        {
+            "id": 5,
+            "pregunta": "¿En qué consisten los métodos probabilísticos desarrollados en los años 70 para tratar problemas reales? Da un ejemplo.",
+            "respuesta": "Los métodos probabilísticos permiten manejar la incertidumbre cuantificando la probabilidad de distintos eventos. Un ejemplo es el sistema experto MYCIN, utilizado para diagnosticar enfermedades en medicina."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Qué problemas presentan las reglas de razonamiento en sistemas modulares y monótonos?",
+            "respuesta": "Los problemas incluyen la falta de precisión y la incapacidad de modificar las conclusiones cuando se añaden nuevas premisas. Por ejemplo, reglas como 'si es un pájaro, entonces vuela' fallan ante excepciones como los pingüinos."
+        },
+        {
+            "id": 7,
+            "pregunta": "Define y diferencia entre modularidad y monotonía en el contexto de la inteligencia artificial.",
+            "respuesta": "La modularidad permite extraer y utilizar partes del conocimiento de forma independiente. La monotonía significa que agregar nueva información no cambia las conclusiones anteriores. Sin embargo, en la realidad, nuevas premisas pueden requerir reevaluar las conclusiones."
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Por qué la relación entre lenguaje y mundo puede no ser precisa? Da al menos dos razones.",
+            "respuesta": "La relación puede no ser precisa por la ignorancia práctica, donde no se tienen todos los datos, y la pereza, que evita especificar cada detalle. Esto lleva a simplificaciones que no siempre reflejan la realidad."
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Cuál es la importancia del surgimiento de las redes bayesianas en el contexto del razonamiento con incertidumbre?",
+            "respuesta": "Las redes bayesianas permitieron manejar la incertidumbre de manera eficiente, superando problemas de complejidad computacional y facilitando el razonamiento probabilístico en sistemas complejos."
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué problemas enfrentan las primeras aproximaciones a la lógica en relación con el conocimiento y las creencias?",
+            "respuesta": "Uno de los problemas era la suposición de certeza absoluta en las premisas, ignorando la incertidumbre que existe en el mundo real. Además, la dificultad para manejar excepciones complicaba la creación de sistemas inteligentes precisos."
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué se entiende por 'lógica difusa' y en qué se diferencia de la lógica clásica?",
+            "respuesta": "La lógica difusa permite grados de verdad intermedios entre verdadero y falso, a diferencia de la lógica clásica que solo acepta dos valores de verdad. Es útil para manejar conceptos vagos como 'alto' o 'rico'."
+        },
+        {
+            "id": 12,
+            "pregunta": "Explica el concepto de 'incertidumbre' en el contexto de la inteligencia artificial. ¿Por qué es un desafío importante?",
+            "respuesta": "La incertidumbre se refiere a la falta de certeza sobre la información o las situaciones. Es un desafío porque los sistemas de IA deben tomar decisiones basadas en información incompleta o ambigua, lo que complica el razonamiento lógico."
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Cuáles fueron algunas de las aplicaciones tempranas de la IA en los años 50 y 60, y cómo abordaban el razonamiento sin incertidumbre?",
+            "respuesta": "Las primeras aplicaciones incluían la demostración de teoremas y juegos como el ajedrez. Se enfocaban en problemas bien definidos sin incertidumbre, donde las reglas y condiciones eran claras y precisas."
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Qué es una semántica infinitamente valorada y cómo se utiliza en el razonamiento bajo incertidumbre?",
+            "respuesta": "Una semántica infinitamente valorada permite una gama continua de valores de verdad, lo que refleja mejor situaciones donde no existe una certeza absoluta, como predecir el clima."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Qué aportaron los métodos no probabilísticos en el tratamiento de la incertidumbre en los años 70? Menciona uno.",
+            "respuesta": "Los métodos no probabilísticos, como la lógica difusa, permitieron manejar la vaguedad y la falta de precisión, ofreciendo una alternativa a la probabilidad para modelar la incertidumbre."
+        },
+        {
+            "id": 16,
+            "pregunta": "Describe las características del razonamiento inductivo y cómo se diferencia del deductivo.",
+            "respuesta": "El razonamiento inductivo consiste en generalizar conclusiones a partir de casos particulares, mientras que el deductivo deriva conclusiones necesarias a partir de premisas generales. El inductivo no garantiza conclusiones absolutas, solo probabilísticas."
+        },
+        {
+            "id": 17,
+            "pregunta": "¿Cuál es la relación entre 'creencia', 'lenguaje' y 'mundo' según se describe en el documento?",
+            "respuesta": "La relación describe cómo lo que creemos (mente), lo que decimos (lenguaje) y lo que sucede (mundo) pueden diferir. La incertidumbre surge cuando nuestras creencias no coinciden con la realidad o no se expresan fielmente en el lenguaje."
+        },
+        {
+            "id": 18,
+            "pregunta": "¿Qué papel juega la 'modularidad' en los sistemas expertos y cuál es su limitación principal?",
+            "respuesta": "La modularidad facilita reutilizar partes del conocimiento sin considerar el sistema completo. Sin embargo, puede llevar a conclusiones erróneas cuando las reglas aplicadas no contemplan nuevas condiciones añadidas después."
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Cómo evolucionaron las técnicas probabilísticas desde los años 70 hasta los 2000 en el contexto de la IA?",
+            "respuesta": "Pasaron de ser métodos complicados y poco eficientes a técnicas más avanzadas como las redes bayesianas, que permiten manejar sistemas complejos de manera eficiente y con mejor capacidad de inferencia y aprendizaje."
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Por qué la lógica de predicados puede no ser suficiente para modelar la realidad, según los ejemplos dados en el documento?",
+            "respuesta": "La lógica de predicados asume que las reglas son siempre ciertas, pero en la vida real hay excepciones. Por ejemplo, 'todos los pájaros vuelan' no aplica a los pingüinos. Esto requiere una lógica que maneje la incertidumbre."
+        },
+        {
+            "id": 21,
+            "pregunta": "¿Qué es la 'incompetencia cognitiva' y cómo afecta nuestra capacidad para formar creencias verdaderas?",
+            "respuesta": "La incompetencia cognitiva se refiere a nuestra incapacidad para entender ciertos problemas, lo que nos impide formar creencias correctas. Puede deberse a la complejidad del problema o a limitaciones cognitivas personales."
+        },
+        {
+            "id": 22,
+            "pregunta": "Explica el 'Principio de Caridad' mencionado en el documento. ¿Cómo se aplica en el razonamiento lógico?",
+            "respuesta": "El Principio de Caridad asume que los interlocutores son veraces y racionales, atribuyéndoles coherencia lógica. Esto simplifica el razonamiento, permitiendo asumir que lo que dicen coincide con lo que creen."
+        },
+        {
+            "id": 23,
+            "pregunta": "¿Cuál es la diferencia entre un 'sabio veraz' y un 'sabio mentiroso' en el contexto del documento?",
+            "respuesta": "Un sabio veraz dice y cree la verdad, mientras que un sabio mentiroso conoce la verdad pero decide expresarla incorrectamente. Ambos tienen conocimiento, pero difieren en su veracidad."
+        },
+        {
+            "id": 24,
+            "pregunta": "¿Qué es una red de Markov y cómo se relaciona con el razonamiento bajo incertidumbre?",
+            "respuesta": "Una red de Markov es un modelo probabilístico que representa dependencias condicionales entre variables aleatorias. Se utiliza para modelar y predecir sistemas donde los estados tienen relaciones probabilísticas."
+        },
+        {
+            "id": 25,
+            "pregunta": "¿Qué se entiende por 'monotonía' en los primeros sistemas precisos de IA, y por qué puede ser un problema en ciertas situaciones?",
+            "respuesta": "La monotonía implica que las conclusiones no cambian al añadir nuevas premisas. Esto es problemático cuando se descubren nuevas excepciones que deberían alterar la conclusión previamente obtenida."
+        },
+        {
+            "id": 26,
+            "pregunta": "¿Cuáles son las 'teorías alternativas de la incertidumbre' mencionadas en el documento y por qué surgieron?",
+            "respuesta": "Algunas teorías alternativas son la lógica difusa y la teoría de la evidencia de Dempster-Shafer. Surgieron para abordar situaciones donde la probabilidad clásica no era adecuada para manejar la incertidumbre."
+        },
+        {
+            "id": 27,
+            "pregunta": "Explica la importancia de la semántica asociada en la lógica. ¿Por qué no basta con definir la lógica de manera formal?",
+            "respuesta": "La semántica define el significado de las expresiones lógicas, lo que permite relacionarlas con la realidad. Definir solo la estructura sin semántica deja las reglas sin interpretación práctica."
+        },
+        {
+            "id": 28,
+            "pregunta": "¿Qué ejemplo se utiliza para explicar el problema de la modularidad en el razonamiento lógico?",
+            "respuesta": "Un ejemplo es la regla 'si una persona tiene un derrame cerebral, entonces tiene un brazo paralizado'. Esto falla porque no todos los derrames cerebrales producen ese síntoma, y la modularidad ignora estas excepciones."
+        },
+        {
+            "id": 29,
+            "pregunta": "¿Qué representa la expresión ∀x(Px → Mx) en el plano conceptual del razonamiento?",
+            "respuesta": "Esta expresión representa que 'para todo x, si x tiene la propiedad P, entonces x tiene la propiedad M'. Es una forma lógica de expresar implicaciones generales."
+        },
+        {
+            "id": 30,
+            "pregunta": "¿Por qué la relación de similaridad entre creencias, lenguaje y realidad no es transitiva según el documento?",
+            "respuesta": "La relación no es transitiva porque lo que creemos, decimos y lo que realmente sucede pueden no coincidir de forma exacta. Puede haber inconsistencias debido a factores como la incomprensión o la ambigüedad del lenguaje."
+        }
+    ]
+}

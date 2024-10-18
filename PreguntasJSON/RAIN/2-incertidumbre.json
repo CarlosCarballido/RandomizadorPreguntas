@@ -1,0 +1,104 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Qué se describe como un caso de incertidumbre en el documento?",
+            "respuesta": "Se describe un escenario de viaje en tren donde se deben considerar factores inciertos como el tráfico, el tiempo para aparcar, comprar billetes, y posibles demoras, destacando la necesidad de ajustar el plan para minimizar riesgos."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Cuáles son las premisas utilizadas para planificar el viaje en tren?",
+            "respuesta": "Las premisas incluyen la distancia de 4 km a la estación, el tiempo que tarda el coche en llegar, el tiempo necesario para aparcar, comprar el billete y pasar el control de seguridad, y la preferencia de no esperar ni correr."
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Qué factores adicionales se consideraron en el plan de viaje cuando surgieron problemas?",
+            "respuesta": "Se consideraron situaciones como obras en la carretera, atascos, eventos en la ciudad que llenaban el aparcamiento, colas en la venta de billetes, y huelgas del personal que podrían afectar el tiempo total necesario."
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Cuál fue la conclusión inicial del plan de viaje en tren?",
+            "respuesta": "La conclusión fue que salir de casa 30 minutos antes de la llegada prevista del tren es razonable, asegurando que no se perderá el tren y que la espera será asumible."
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Cómo se puede ajustar el plan de viaje si hay más incertidumbre en las condiciones de tráfico?",
+            "respuesta": "El plan se puede ajustar aumentando el tiempo de salida a 40 o 60 minutos antes para ofrecer más garantías, aunque esto implicaría tiempos de espera más largos en la estación."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Qué métodos se mencionan para el diagnóstico con incertidumbre?",
+            "respuesta": "Se mencionan dos métodos: el diagnóstico por deducción (basado en reglas lógicas) y el diagnóstico por causalidad (que establece una relación causal entre síntomas y causas)."
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Qué diferencia hay entre un diagnóstico por deducción y uno por causalidad?",
+            "respuesta": "El diagnóstico por deducción deriva conclusiones de reglas lógicas claras, mientras que el diagnóstico por causalidad se basa en relaciones causales probables entre síntomas y condiciones subyacentes."
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Cómo se puede tratar computacionalmente la incertidumbre en diagnósticos?",
+            "respuesta": "La incertidumbre se puede tratar usando lógica difusa y teoría de la probabilidad para asignar grados de creencia a las reglas y permitir inferencias bajo condiciones de incertidumbre."
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué es la Paradoja de Sorites y cómo se relaciona con la lógica difusa?",
+            "respuesta": "La Paradoja de Sorites se refiere al problema de definir un 'montón' al quitar granos de arena uno por uno, desafiando la lógica bivalente. La lógica difusa maneja este problema permitiendo grados de pertenencia en lugar de decisiones binarias."
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué representa un conjunto difuso en la lógica difusa y cómo se diferencia de un conjunto clásico?",
+            "respuesta": "Un conjunto difuso representa elementos que pueden pertenecer parcialmente a un conjunto con diferentes grados de pertenencia, a diferencia de los conjuntos clásicos donde la pertenencia es absoluta (total o nula)."
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Qué tipos de funciones de pertenencia se utilizan en conjuntos difusos?",
+            "respuesta": "Se utilizan funciones como la triangular, trapezoidal, gaussiana, sigmoidal, entre otras, para definir el grado de pertenencia de los elementos en un conjunto difuso."
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Cuáles son algunos ejemplos de conjuntos difusos mencionados en el documento?",
+            "respuesta": "Ejemplos incluyen términos como 'caliente', 'frío', 'alto', 'bajo', que se aplican en contextos de temperatura, estatura y otras propiedades que no tienen límites claros."
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Qué aplicaciones se mencionan para los sistemas basados en lógica difusa?",
+            "respuesta": "Se mencionan aplicaciones en control de sistemas, como gestión de tráfico, conducción de vehículos, sistemas embebidos en electrodomésticos, y sistemas expertos que manejan incertidumbre."
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Cómo se define la función de pertenencia en un conjunto difuso?",
+            "respuesta": "La función de pertenencia asigna a cada elemento un valor entre 0 y 1 que indica el grado en que el elemento pertenece al conjunto, permitiendo una representación más flexible que en conjuntos clásicos."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Cuál es la importancia de las operaciones sobre conjuntos difusos?",
+            "respuesta": "Las operaciones como la unión, intersección y complemento permiten manejar y combinar conjuntos difusos para representar conceptos más complejos, fundamentales para la inferencia en lógica difusa."
+        },
+        {
+            "id": 16,
+            "pregunta": "¿Qué se entiende por relaciones difusas y qué ejemplo se da en el documento?",
+            "respuesta": "Las relaciones difusas representan asociaciones parciales entre elementos de distintos conjuntos. Un ejemplo dado es la relación de 'aproximadamente igual' entre números."
+        },
+        {
+            "id": 17,
+            "pregunta": "¿Cómo se maneja la composición de relaciones difusas?",
+            "respuesta": "La composición se realiza utilizando operaciones matemáticas como el máximo de mínimos para combinar los grados de pertenencia de múltiples relaciones, permitiendo inferencias complejas."
+        },
+        {
+            "id": 18,
+            "pregunta": "¿Qué papel juegan las variables lingüísticas en la lógica difusa?",
+            "respuesta": "Las variables lingüísticas permiten usar términos del lenguaje natural para describir fenómenos complejos, traduciendo descripciones cualitativas a modelos cuantitativos que facilitan el procesamiento en sistemas de lógica difusa."
+        },
+        {
+            "id": 19,
+            "pregunta": "¿Qué es el Modus Ponens Difuso y cómo se diferencia del clásico?",
+            "respuesta": "El Modus Ponens Difuso permite inferencias basadas en grados de pertenencia, no solo en valores absolutos, lo que lo hace más flexible que el Modus Ponens clásico que requiere coincidencia exacta de premisas."
+        },
+        {
+            "id": 20,
+            "pregunta": "¿Cuáles son los procesos de 'fuzzyficación' y 'desfuzzyficación' y por qué son necesarios?",
+            "respuesta": "La 'fuzzyficación' convierte valores numéricos en conjuntos difusos para procesamiento, y la 'desfuzzyficación' traduce los resultados difusos en valores concretos, permitiendo que sistemas basados en lógica difusa interactúen con datos reales."
+        }
+    ]
+}
