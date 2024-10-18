@@ -7,7 +7,7 @@ import sys
 from time import sleep
 
 class Randomizador:
-    def __init__(self, jsonPath):
+    def __init__(self, jsonPath) -> None:
         self.jsonPath = jsonPath
         self.preguntas = []
         print("Elegido el archivo de preguntas: ", jsonPath)
@@ -37,7 +37,7 @@ class Randomizador:
         self.preguntas['preguntas'].pop(id_pregunta)
         
 
-def limpiar_pantalla():
+def limpiar_pantalla() -> None:
     print("\033[H\033[J")
     
 if __name__ == "__main__":
@@ -62,8 +62,9 @@ if __name__ == "__main__":
         id_pregunta = randomizador.sortear()
         if id_pregunta == -1:
             randomizador.cargar_preguntas()
-            print("Se rellean las preguntas de nuevo")
-            
+            print("No quedan preguntas nuevas\nSe rellean las preguntas de nuevo")
+            sleep(4)
+            limpiar_pantalla()            
         print("\nPresione ENTER para ver la respuesta\n")
         randomizador.mostar_pregunta(id_pregunta)
         input()

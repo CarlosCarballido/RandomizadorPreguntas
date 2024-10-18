@@ -164,7 +164,7 @@
         {
             "id": 33,
             "pregunta": "Claves de diseño de HDFS",
-            "respuesta": "Diseñado para manejar grandes volúmenes de datos, escritura de datos unica y lectura de datos multiple,diseñado para hardware economico, prioriza el alo rendimeinto sobre la latencia baja"
+            "respuesta": "Diseñado para manejar grandes volúmenes de datos, escritura de datos unica y lectura de datos multiple,diseñado para hardware economico, prioriza el alto rendimeinto sobre la latencia baja"
         }
     ]
 }
