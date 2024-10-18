@@ -1,0 +1,79 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Cuál es la diferencia entre datos, información y conocimiento?",
+            "respuesta": "Los datos son hechos en bruto sin contexto, la información es el resultado de procesar datos y darles un significado, y el conocimiento se forma cuando la información se contextualiza y se combina con la experiencia para tomar decisiones."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿Qué se entiende por representación del conocimiento en un SBC?",
+            "respuesta": "La representación del conocimiento es la forma en que el conocimiento extraído y formalizado de expertos se organiza y estructura para que sea procesado eficientemente por un Sistema Basado en Conocimiento (SBC)."
+        },
+        {
+            "id": 3,
+            "pregunta": "¿Cuáles son las características deseables en la representación del conocimiento?",
+            "respuesta": "Las características deseables incluyen expresividad, claridad/comprensibilidad, eficiencia y flexibilidad, permitiendo que el conocimiento sea comprensible para humanos, procesable por máquinas, y fácil de modificar."
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Qué son las reglas de producción y cuáles son sus ventajas y desventajas?",
+            "respuesta": "Las reglas de producción son estructuras SI-ENTONCES que permiten representar el conocimiento de manera clara y sencilla. Sus ventajas incluyen simplicidad y facilidad de implementación, mientras que sus desventajas son la dificultad para manejar muchas reglas y los conflictos entre ellas."
+        },
+        {
+            "id": 5,
+            "pregunta": "¿Qué es una red semántica y cuándo es útil?",
+            "respuesta": "Una red semántica es una representación gráfica de relaciones entre conceptos mediante nodos y arcos. Es útil para representar taxonomías y jerarquías, pero puede ser difícil de escalar cuando hay muchos conceptos."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Qué ventajas ofrecen las ontologías en la representación del conocimiento?",
+            "respuesta": "Las ontologías facilitan la interoperabilidad y la reutilización del conocimiento, y son adecuadas para el razonamiento automático y la representación semántica de conceptos en dominios específicos."
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Cómo se define la adquisición del conocimiento?",
+            "respuesta": "La adquisición del conocimiento es el proceso de extraer, analizar, organizar y formalizar el conocimiento de expertos humanos u otras fuentes para almacenarlo en una base de conocimiento que pueda ser usada por un SBC/SE."
+        },
+        {
+            "id": 8,
+            "pregunta": "¿Cuáles son las principales dificultades en la adquisición del conocimiento?",
+            "respuesta": "Las principales dificultades incluyen la complejidad del conocimiento humano, las diferencias de lenguaje entre expertos y sistemas, la naturaleza implícita del conocimiento tácito, los cambios continuos en el conocimiento y la verificación de su validez."
+        },
+        {
+            "id": 9,
+            "pregunta": "¿Qué técnicas existen para adquirir conocimiento de expertos humanos?",
+            "respuesta": "Las técnicas incluyen entrevistas (estructuradas, semiestructuradas y no estructuradas), observación directa, técnicas de protocolización (pensar en voz alta), y análisis de casos."
+        },
+        {
+            "id": 10,
+            "pregunta": "¿Qué es el método Delphi y cómo se utiliza en la adquisición de conocimiento?",
+            "respuesta": "El método Delphi es una técnica estructurada para recoger opiniones de un grupo de expertos mediante varias rondas de consultas anónimas, agregando respuestas para lograr un consenso. Es útil para reducir sesgos y obtener consensos sólidos."
+        },
+        {
+            "id": 11,
+            "pregunta": "¿Cómo ayudan las redes bayesianas en la representación del conocimiento?",
+            "respuesta": "Las redes bayesianas son modelos probabilísticos que representan variables y sus relaciones de dependencia, permitiendo manejar la incertidumbre en el conocimiento y realizar razonamientos probabilísticos mediante probabilidades condicionadas."
+        },
+        {
+            "id": 12,
+            "pregunta": "¿Qué son los métodos automáticos en la adquisición del conocimiento?",
+            "respuesta": "Los métodos automáticos utilizan técnicas de aprendizaje automático, procesamiento del lenguaje natural y minería de datos para extraer patrones, reglas y dependencias de grandes volúmenes de datos, reduciendo la dependencia de expertos humanos."
+        },
+        {
+            "id": 13,
+            "pregunta": "¿Qué es la lógica de predicados y en qué se diferencia de otras representaciones?",
+            "respuesta": "La lógica de predicados utiliza fórmulas lógicas para describir hechos y relaciones entre objetos con alta precisión y formalidad, permitiendo representar relaciones complejas y razonamientos lógicos, a diferencia de otras representaciones como reglas simples o redes."
+        },
+        {
+            "id": 14,
+            "pregunta": "¿Cuáles son las ventajas y desventajas de usar árboles de decisión en métodos automáticos?",
+            "respuesta": "Las ventajas incluyen la claridad en la representación de reglas explícitas y la facilidad de interpretación. Las desventajas son la posible complejidad en dominios con muchas variables y el riesgo de sobreajuste."
+        },
+        {
+            "id": 15,
+            "pregunta": "¿Qué papel juegan los algoritmos de programación lógica inductiva como FOIL en la adquisición del conocimiento?",
+            "respuesta": "FOIL (First Order Inductive Learner) aprende reglas lógicas complejas a partir de ejemplos positivos y negativos, permitiendo estructurar el conocimiento de forma lógica y explícita para su uso en SBC/SE basados en reglas."
+        }
+    ]
+}
