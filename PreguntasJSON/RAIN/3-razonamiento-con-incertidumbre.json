@@ -1,0 +1,39 @@
+{
+    "preguntas": [
+        {
+            "id": 1,
+            "pregunta": "¿Qué es la marginalización en inferencia con probabilidades y cómo se aplica a una distribución conjunta completa?",
+            "respuesta": "La marginalización permite obtener la probabilidad a priori de una variable dejando al margen las demás, sumando sobre los valores de las variables no relevantes en la distribución conjunta."
+        },
+        {
+            "id": 2,
+            "pregunta": "¿En qué consiste el condicionamiento en inferencia probabilística? Proporciona un ejemplo que demuestre cómo calcular la probabilidad a posteriori de un evento.",
+            "respuesta": "El condicionamiento se refiere al cálculo de la probabilidad a posteriori de una variable dada la evidencia de otra, usando la fórmula P(A|B) = P(A ∧ B) / P(B)."
+        },
+        {
+            "id": 3,
+            "pregunta": "Explica cómo se utiliza la normalización en la inferencia con probabilidades.",
+            "respuesta": "La normalización se utiliza para calcular conjuntamente la probabilidad de una proposición condicional y su negación, multiplicando por una constante para que la suma de las probabilidades sea 1."
+        },
+        {
+            "id": 4,
+            "pregunta": "¿Qué significa que dos variables sean independientes en una distribución de probabilidad? Proporciona un ejemplo de variables independientes.",
+            "respuesta": "Dos variables son independientes si el valor de una no afecta la probabilidad de la otra, como en el ejemplo donde el tiempo es independiente del dolor de muelas y la caries."
+        },
+        {
+            "id": 5,
+            "pregunta": "Describe el Teorema de Bayes y su aplicación en diagnósticos médicos. ¿Por qué es más complicado deducir la causa de un síntoma a partir del efecto en lugar de lo contrario?",
+            "respuesta": "El Teorema de Bayes permite calcular la probabilidad de una causa dada la presencia de un síntoma. Es más complejo deducir la causa a partir del síntoma porque esto implica una inferencia de efecto a causa, la cual es menos directa y precisa."
+        },
+        {
+            "id": 6,
+            "pregunta": "¿Cómo puedes usar el Teorema de Bayes para seleccionar la causa más probable de un síntoma entre varias causas posibles?",
+            "respuesta": "Se pueden comparar probabilidades condicionales de distintas causas respecto a un síntoma dado, calculando cuál tiene mayor probabilidad a partir del Teorema de Bayes."
+        },
+        {
+            "id": 7,
+            "pregunta": "¿Qué ventaja tiene la reformulación del Teorema de Bayes para evitar el cálculo de algunas probabilidades? Explica una de las opciones dadas para esta reformulación.",
+            "respuesta": "La reformulación permite omitir la probabilidad del efecto si se usa como factor de normalización, facilitando el cálculo de la causa más probable sin calcular todas las probabilidades absolutas."
+        }
+    ]
+}
